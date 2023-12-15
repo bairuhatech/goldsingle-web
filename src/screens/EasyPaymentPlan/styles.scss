@@ -1,0 +1,73 @@
+@use "../../config/styleVariable.scss" as global;
+.easyPaymentPlan-Box1 {
+  padding: 30px;
+}
+.easyPaymentPlanimg-1 {
+  width: 100%;
+  border-radius: 8px;
+}
+.easyPaymentPlan-Box2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.easyPaymentPlan-Box3 {
+  width: 75%;
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+}
+.easyPaymentPlan-Txt1 {
+  display: flex;
+  justify-content: center;
+  font-family: global.$Regular;
+  font-size: 20px;
+  color: global.$grey1;
+}
+.easyPaymentPlan-Txt2 {
+  font-family: global.$Regular;
+  font-size: 18px;
+  color: global.$grey1;
+}
+.easyPaymentPlan-Box4 {
+  padding: 0px 60px 0px 60px;
+  @media screen and (max-width: 768px) {
+    padding: 0px;
+  }
+}
+.easyPaymentPlan-Box5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.easyPaymentPlan-img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.easyPaymentPlan-Box666 {
+  height: 150px;
+  width: 180px;
+}
+.easyPaymentPlan-Box6 {
+  text-align: center;
+}
+.easyPaymentPlan-Txt3 {
+  font-family: global.$Regular;
+  font-size: 20px;
+}
+.easyPaymentPlan-Txt4 {
+  font-family: global.$SemiBold;
+  font-size: 16px;
+}
+.easyPaymentPlan-Txt5 {
+  font-family: global.$Regular;
+  font-size: 14px;
+}
+.easyPaymentPlan-Txt6 {
+  font-family: global.$Regular;
+  font-size: 14px;
+  color: red;
+}

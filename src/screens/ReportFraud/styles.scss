@@ -1,0 +1,10 @@
+.rightside {
+  background-image: url("../../assets/images/reportfraud.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @media screen and (max-width: 600px) {
+    min-height: 300px;
+    width: 310px;
+  }
+}

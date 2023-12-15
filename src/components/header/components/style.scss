@@ -1,0 +1,23 @@
+@use "../../../config/styleVariable.scss" as global;
+.desktop-choose-location {
+  background-color: rgb(244, 244, 244);
+  width: 100%;
+  padding: 7px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-family: global.$Medium;
+  &:focus {
+    outline: none;
+  }
+}
+.current-location-text {
+  font-size: 16px;
+}
+.profileMenu-Icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(244, 244, 244);
+}

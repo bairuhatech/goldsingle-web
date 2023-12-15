@@ -1,0 +1,119 @@
+@use "../../config/styleVariable.scss" as global;
+
+$borderRadius: 12px;
+.bg-multisearch-card-sub {
+  background-color: rgb(227, 227, 227);
+  border-radius: 5px;
+}
+.multisearch-card-img {
+  width: 45px;
+  height: 45px;
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    outline: 1px solid rgb(211, 211, 211);
+  }
+}
+.product-multi-img-container {
+  width: 100%;
+  height: 130px;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: $borderRadius;
+    border-top-left-radius: $borderRadius;
+    object-fit: contain;
+  }
+}
+.product-multi-card-container {
+  border-radius: $borderRadius;
+}
+.product-multi-text-container {
+  border-bottom-right-radius: $borderRadius;
+  border-bottom-left-radius: $borderRadius;
+}
+.product-multi-card-title {
+  font-size: 14px;
+  font-family: global.$Regular;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.product-multi-card-price {
+  font-size: 16px;
+  font-family: global.$Regular;
+}
+.product-Multi-Horizontal-Pscroll {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    padding-left: 10px;
+  }
+}
+.product-Multi-Horizontal-PscrollBox {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.product-Multi-Horizontal-item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    margin-right: 16px;
+    height: 300px;
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      width: 150px;
+      height: 270px;
+    }
+}
+.product-Multi-Horizontal-PscrollBox::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.product-Multi-Horizontal-btn1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(183, 183, 183);
+    color: #000;
+    background-color: #fff;
+  
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      display: none;
+    }
+  }
+  .product-Multi-slider-btn-left {
+    inset: 35% auto auto -20px;
+    // transform: translateY(-100%);
+  }
+  
+  .product-Multi-slider-btn-right {
+    inset: 35% -20px auto auto;
+    // transform: translateY(-100%);
+  }
+  .product-Multi-Horizontal-viewButton {
+    font-family: "Catamaran-Bold";
+    margin-right: 16px;
+    font-size: 14px;
+    padding-top: 5px;
+    color: gray;
+    &:hover{
+      color: global.$primary;
+    }
+  }
+  .product-search-multi-text{
+    font-family: global.$Regular;
+    font-size: 14px;
+  }
+  .product-search-multi-title{
+    font-family: global.$SemiBold;
+  }
+  .product-list-shop-card{
+    cursor: pointer;
+  }

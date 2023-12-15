@@ -1,0 +1,33 @@
+@use "../../config/styleVariable.scss" as global;
+
+.address-screen-title {
+  background-color: global.$primary;
+}
+.address-screen-card {
+}
+.address-card-type-bg {
+  background-color: rgb(228, 228, 228);
+}
+.address-font-size-small {
+  font-size: 14px;
+}
+.Header-desk-menu2 {
+  padding: 7px 20px;
+  font-family: global.$Bold;
+  font-size: 15px;
+  border-radius: 100px;
+  text-transform: capitalize;
+  &:hover {
+    background-color: rgb(240, 240, 240);
+    border-radius: 100px;
+    color: global.$primary;
+    cursor: pointer;
+  }
+  &.add:hover{
+    background-color: #dfdfdf;
+  }
+}
+.ant-checkbox.address span.ant-checkbox-inner {
+    background-color: hotpink;
+    border-radius: 50%;
+  }

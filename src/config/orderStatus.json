@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Pending",
+    "value": "pending"
+  },
+  {
+    "title": "Cancelled",
+    "value": "cancelled"
+  },
+  {
+    "title": "Shipped",
+    "value": "shipped"
+  },
+  {
+    "title": "Out for Delivery",
+    "value": "out_for_delivery"
+  },
+  {
+    "title": "Packed",
+    "value": "packed"
+  },
+  {
+    "title": "Delivered",
+    "value": "delivered"
+  },
+  {
+    "title": "Rejected",
+    "value": "rejected"
+  },
+  {
+    "title": "Processing",
+    "value": "processing"
+  }
+]

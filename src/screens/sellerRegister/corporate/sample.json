@@ -1,0 +1,48 @@
+{
+  "step1Data": {
+    "first_name": "Abdul",
+    "last_name": "Riyas",
+    "email": "abdulriyas.p786@gmail.com",
+    "code": "+91",
+    "phone": "1122334455",
+    "password": "12345678",
+    "confirm_password": "12345678"
+  },
+  "step2Data": {
+    "store_name": "OK STORE",
+    "business_address": "west kaithapoyil",
+    "business_location": {
+      "lat": 25.189748273768565,
+      "lng": 55.284514910156254
+    },
+    "business_type": "Fancy",
+    "trn_number": "12345678901",
+    "trade_licencse_no": "12345678902",
+    "upscs": "yes",
+    "manufacture": "no",
+    "agreement": true
+  },
+  "step3Data": {
+    "seller_name": "Abdul Riyas",
+    "citizenship_country": "India",
+    "birth_country": "India",
+    "dob": "1996-11-10T07:08:15.939Z",
+    "id_type": "Emirates ID",
+    "issue_country": "United Arab Emirates",
+    "expiry_date": "2023-11-29T07:12:12.158Z"
+  },
+  "step5Data": {
+    "id_proof": {
+      "file": {
+        "path": "bairuha new logo logo Green.png"
+      },
+      "url": "blob:http://localhost:3000/c0a2c257-bed5-425d-9024-684e22c54cfa"
+    },
+    "trn_upload": {
+      "file": {
+        "path": "merged_image.jpg"
+      },
+      "url": "blob:http://localhost:3000/37a699d4-8820-4907-9db3-91c6c93f620e"
+    }
+  }
+}

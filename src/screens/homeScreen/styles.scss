@@ -1,0 +1,136 @@
+@use "../../config/styleVariable.scss" as global;
+.homeScreen-loaderBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-left: -10px;
+}
+.HomeScreen-BannerBox {
+  width: 100%;
+  overflow: hidden;
+  margin-top: -10px;
+}
+.HomeScreen-Banners {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(235, 235, 235);
+  // background-image: url("../../assets/images/bg1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    height: 250px;
+    background-size: cover;
+    border-radius: 0px;
+  }
+}
+.HomeScreen-BannersBox {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 30px;
+}
+.Offers-box {
+  border: 1px solid grey;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.Offers-txt1 {
+  font-family: global.$Bold;
+  font-size: 30px;
+}
+.Offers-txt2 {
+  font-family: global.$Medium;
+  font-size: 13px;
+}
+.Offers-img {
+  width: 100%;
+  height: 200px;
+  img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.HomeScreen-Bannertxt1 {
+  font-family: global.$Medium;
+  font-size: 14px;
+}
+.HomeScreen-Bannertxt2 {
+  font-family: global.$SemiBold;
+  font-size: 30px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    font-size: 25px;
+  }
+}
+.HomeScreen-Bannertxt3 {
+  font-family: global.$Medium;
+  font-size: 20px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+.subcategory-card-img-container {
+  $size: 90px;
+  width: $size;
+  height: $size;
+  border-radius: 100%;
+  padding: 2px;
+  border: 1px solid global.$grey6;
+  cursor: pointer;
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+  @media (max-width: 620px) {
+    width: 70px;
+    height: 70px;
+    padding: 3px;
+  }
+}
+
+.subcategory-card-main-container {
+  overflow-x: scroll;
+  padding: 15px 0px;
+  white-space: nowrap;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  font-family: global.$SemiBold;
+  font-size: 14px;
+  &::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+}
+.subcategory-card-right-arrow-button{
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(183, 183, 183);
+  color: #000;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    display: none;
+  }
+}
+.right-arrow-button{
+  right: -20px;
+}
+.left-arrow-button{
+  left: -20px;
+}

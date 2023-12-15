@@ -1,0 +1,23 @@
+@use "../../config/styleVariable.scss" as global;
+
+.search-store-subcategories {
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.search-store-tags {
+  background-color: #e6e1e2;
+  border-radius: 16px;
+  padding-block: 4px;
+  &:hover {
+    // background-color: rgb(223, 223, 223);
+    color: global.$primary;
+  }
+  &.active {
+    background-color: global.$primary;
+    color: white;
+  }
+}

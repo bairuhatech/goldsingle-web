@@ -1,0 +1,227 @@
+{
+    "predictions": [
+        {
+            "description": "Chemperi, Chemperi, Kerala, India",
+            "matched_substrings": [
+                {
+                    "length": 6,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJ38iNOWFIpDsRCKJrCDrXuXw",
+            "reference": "ChIJ38iNOWFIpDsRCKJrCDrXuXw",
+            "structured_formatting": {
+                "main_text": "Chemperi",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 6,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "Chemperi, Kerala, India"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Chemperi"
+                },
+                {
+                    "offset": 10,
+                    "value": "Chemperi"
+                },
+                {
+                    "offset": 20,
+                    "value": "Kerala"
+                },
+                {
+                    "offset": 28,
+                    "value": "India"
+                }
+            ],
+            "types": [
+                "place_of_worship",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "description": "Chempet Post Office, Montague Drive, Montague Gardens, Cape Town, South Africa",
+            "matched_substrings": [
+                {
+                    "length": 6,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJkdDjoMpezB0RGAARb2B3-aE",
+            "reference": "ChIJkdDjoMpezB0RGAARb2B3-aE",
+            "structured_formatting": {
+                "main_text": "Chempet Post Office",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 6,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "Montague Drive, Montague Gardens, Cape Town, South Africa"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Chempet Post Office"
+                },
+                {
+                    "offset": 21,
+                    "value": "Montague Drive"
+                },
+                {
+                    "offset": 37,
+                    "value": "Montague Gardens"
+                },
+                {
+                    "offset": 55,
+                    "value": "Cape Town"
+                },
+                {
+                    "offset": 66,
+                    "value": "South Africa"
+                }
+            ],
+            "types": [
+                "post_office",
+                "finance",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "description": "Chempest SA Jaksice - maszyny rolnicze, Jaksice, Poland",
+            "matched_substrings": [
+                {
+                    "length": 6,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJW2TzsuqrF0cRLb374I3gBi4",
+            "reference": "ChIJW2TzsuqrF0cRLb374I3gBi4",
+            "structured_formatting": {
+                "main_text": "Chempest SA Jaksice - maszyny rolnicze",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 6,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "Jaksice, Poland"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Chempest SA Jaksice - maszyny rolnicze"
+                },
+                {
+                    "offset": 40,
+                    "value": "Jaksice"
+                },
+                {
+                    "offset": 49,
+                    "value": "Poland"
+                }
+            ],
+            "types": [
+                "store",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "description": "Chempest SA Rudnik | Maszyny Rolnicze, Kozielska, Rudnik, Poland",
+            "matched_substrings": [
+                {
+                    "length": 6,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJk-IkZwlpEUcRj6m4qH465EI",
+            "reference": "ChIJk-IkZwlpEUcRj6m4qH465EI",
+            "structured_formatting": {
+                "main_text": "Chempest SA Rudnik | Maszyny Rolnicze",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 6,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "Kozielska, Rudnik, Poland"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Chempest SA Rudnik | Maszyny Rolnicze"
+                },
+                {
+                    "offset": 39,
+                    "value": "Kozielska"
+                },
+                {
+                    "offset": 50,
+                    "value": "Rudnik"
+                },
+                {
+                    "offset": 58,
+                    "value": "Poland"
+                }
+            ],
+            "types": [
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "description": "Chemperoh Waterfall, Bentong, Pahang, Malaysia",
+            "matched_substrings": [
+                {
+                    "length": 6,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJ0Yfk2Uk9zDERVnHkRo0m6N0",
+            "reference": "ChIJ0Yfk2Uk9zDERVnHkRo0m6N0",
+            "structured_formatting": {
+                "main_text": "Chemperoh Waterfall",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 6,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "Bentong, Pahang, Malaysia"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "Chemperoh Waterfall"
+                },
+                {
+                    "offset": 21,
+                    "value": "Bentong"
+                },
+                {
+                    "offset": 30,
+                    "value": "Pahang"
+                },
+                {
+                    "offset": 38,
+                    "value": "Malaysia"
+                }
+            ],
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ]
+        }
+    ],
+    "status": "OK"
+}

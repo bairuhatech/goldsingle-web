@@ -1,0 +1,36 @@
+.CheckWarrantystatus-bg1{
+  background-color: #5c1e3a;
+}
+.CheckWarrantystatus-img1{
+  background-image: url("../../assets/images/formbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-height: 715px;
+
+}
+.CheckWarrantystatus-img2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/planning.jpg") no-repeat center/cover;
+}
+.CheckWarrantystatus-loginform{
+  background-color: white;
+  border-radius: 5px;
+  max-width: 400px;
+  padding: 48px;
+  margin: 0 16px;
+  box-shadow: 0 6px 8px rgba(0,0,0,0.1);
+  z-index: 2; 
+}
+.inputStyle {
+  width: 50% !important;
+  height: 45px;
+  border-radius: 4px;
+  border: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 15px;
+  background: #dddddd;
+  font-size: 20px;
+}
+

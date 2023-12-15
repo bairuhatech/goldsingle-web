@@ -1,0 +1,6 @@
+.search-card{
+    background-color: rgb(252, 252, 252);
+    &:hover{
+        box-shadow: 0px 5px 24px 5px rgba(0,0,0,0.1);
+    }
+}

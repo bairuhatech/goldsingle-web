@@ -1,0 +1,20 @@
+@use "../../config/styleVariable.scss" as global;
+.SuccessModal-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: global.$Medium;
+  text-align: center;
+  padding: 30px;
+}
+.SuccessModal-modal-txt1 {
+  font-family: global.$Bold;
+  font-size: 18px;
+}
+.SuccessModal-modal-txt2 {
+  font-family: global.$Medium;
+  color: global.$grey2;
+}
+.SuccessModal-image1 {
+  width: 50%;
+}

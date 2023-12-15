@@ -1,0 +1,108 @@
+[
+  {
+    "id": 2,
+    "menu": "Over View",
+    "icon": "SlHome",
+    "route": "/auth/overview",
+    "role": ["seller"]
+  },
+  {
+    "id": 2,
+    "menu": "Dashboard",
+    "icon": "SlHome",
+    "route": "/auth/dashboard",
+    "role": ["admin"]
+  },
+
+  {
+    "id": 13,
+    "menu": "Seller Request",
+    "icon": "FaWpforms",
+    "route": "/auth/seller_request",
+    "role": ["admin"]
+  },
+  {
+    "id": 15,
+    "menu": "Sellers",
+    "icon": "FaWpforms",
+    "route": "/auth/sellers",
+    "role": ["admin"]
+  },
+  {
+    "id": 16,
+    "menu": "Orders",
+    "icon": "SlHome",
+    "route": "/auth/Orders",
+    "role": ["seller"]
+  },
+  {
+    "id": 3,
+    "menu": "Banner",
+    "icon": "SlHome",
+    "route": "/auth/banners",
+    "role": ["seller"]
+  },
+  {
+    "id": 5,
+    "menu": "Categories",
+    "icon": "SlHome",
+    "route": "/auth/categories",
+    "role": ["admin"]
+  },
+  {
+    "id": 6,
+    "menu": "Sub Categories",
+    "icon": "SlHome",
+    "route": "/auth/sub-categories",
+    "role": ["admin"]
+  },
+  {
+    "id": 7,
+    "menu": "Products",
+    "icon": "SlHome",
+    "route": "/auth/products",
+    "role": ["seller"]
+  },
+  {
+    "id": 11,
+    "menu": "Offers",
+    "icon": "SlHome",
+    "route": "/auth/offers",
+    "role": ["seller"]
+  },
+  {
+    "id": 10,
+    "menu": "Menu",
+    "icon": "SlHome",
+    "route": "/auth/menu-config",
+    "role": ["seller"]
+  },
+  {
+    "id": 12,
+    "menu": "Settings",
+    "icon": "SlHome",
+    "route": "/auth/settings",
+    "role": ["admin"]
+  },
+  {
+    "id": 13,
+    "menu": "Enquiry",
+    "icon": "SlHome",
+    "route": "/auth/enquiry",
+    "role": ["admin"]
+  },
+  {
+    "id": 13,
+    "menu": "Manage Store",
+    "icon": "SlHome",
+    "route": "/auth/manage_store",
+    "role": ["seller"]
+  },
+  {
+    "id": 14,
+    "menu": "Users",
+    "icon": "SlHome",
+    "route": "/auth/users",
+    "role": ["admin"]
+  }
+]

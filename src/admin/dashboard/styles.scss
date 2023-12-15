@@ -1,0 +1,93 @@
+@use "../../config//styleVariable.scss" as global;
+
+// index-------------->
+.dashboard-Box1 {
+}
+.dashboard-Box2 {
+  width: 100%;
+  padding: 15px;
+}
+.dashboard-Box3 {
+  // height: 180px;
+  width: 100%;
+  padding: 18px;
+}
+.dashboardText {
+  font-family: global.$Bold;
+  font-size: 25px;
+}
+.dashboardText1 {
+  font-family: global.$Bold;
+  font-size: 20px;
+}
+.dashboard-Box4 {
+  height: 250px;
+  width: 100%;
+  padding: 18px;
+  @media screen and (max-width: 768px) {
+    height: 180px;
+  }
+}
+// bar graph------------->
+
+// .dashBoardBarchart-Box1 {
+//   width: 100%;
+//   min-height: 200px;
+// }
+// .dashBoardBarchart-Box2 {
+//   width: 100%;
+// }
+.dashBoardBarchart-Txt1 {
+  margin-bottom: 10px;
+  font-family: global.$Bold;
+  font-size: 25px;
+}
+// piechart----------------->
+.dashboardPiechart-Box1 {
+  width: 100%;
+}
+// table------------->
+.dashBoardDataTable-Box1 {
+  width: 100%;
+}
+.dashBoardDataTable-Box2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+// products----------->
+.dashboardProduct-Box2 {
+  width: 100%;
+  background: rgb(251, 250, 250);
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 150px;
+}
+.dashboardProduct-Box1 {
+  padding: 15px;
+  @media screen and (max-width: 768px) {
+    padding: 0px;
+    padding-left: 10px;
+  }
+}
+.dashboardProduct-Txt1 {
+  font-family: global.$Bold;
+  font-size: 18px;
+  @media screen and (min-width: 768px) and (max-width: 968px) {
+    font-size: 15px;
+  }
+}
+.dashboardProduct-Txt2 {
+  font-family: global.$Bold;
+  font-size: 38px;
+  @media screen and (min-width: 768px) and (max-width: 968px) {
+    font-size: 19px;
+  }
+}
+.dashboardProduct-Txt3 {
+  font-family: global.$Regular;
+  font-size: 16px;
+}

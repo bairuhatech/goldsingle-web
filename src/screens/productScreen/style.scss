@@ -1,0 +1,235 @@
+@use "../../config/styleVariable.scss" as global;
+.product-landing {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 0px 10px 0px 10px;
+  }
+  margin: 30px 0px;
+}
+.product-details {
+  margin-bottom: 8px;
+}
+
+.productDetails-image1 {
+  max-height: 350px;
+  background-color: #f4f3f3;
+  border-radius: 12px;
+  img {
+    object-fit: contain;
+    width: 100%;
+    overflow: hidden;
+    max-height: 350px;
+  }
+}
+
+.productDetails-image-row {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productDetails-image2 {
+  max-height: 150px;
+  background-color: #f4f3f3;
+  border-radius: 12px;
+  max-width: 100%;
+  margin: 12px;
+  overflow-x: hidden;
+  float: left;
+  img {
+    object-fit: contain;
+    width: 100%;
+    overflow: hidden;
+    max-height: 150px;
+  }
+}
+.productDetails-scrollable-parent {
+  overflow-x: hidden;
+  float: left;
+}
+.productDetails-scrollable {
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  float: left;
+  font-size: 15px;
+  font-family: arial;
+  cursor: pointer;
+}
+
+.productDetails-image-scroll-content {
+  display: inline-block;
+}
+
+.productDetails-details-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.productDetails-text1 {
+  font-size: 42px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+}
+
+.productDetails-text2 {
+  font-size: 18px;
+}
+.productDetails-text3 {
+  font-size: 16px;
+}
+.productDetails-text4 {
+  font-size: 14px;
+}
+.productDetails-txt-bold {
+  font-weight: bold;
+}
+.productDetails-secondary-text {
+  color: rgba(51, 50, 50, 0.626);
+}
+.productDetails-zero-margin-h {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.productDetails-cart-btn {
+  width: 100%;
+}
+
+.productDetails-counter-btn {
+  background-color: #f1f2f68d;
+  color: #000;
+}
+
+.productDetails-counter-button {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(188, 187, 187, 0.353);
+  width: min-content;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.productDetails-text-btn1 {
+  display: flex;
+  align-items: center;
+  color: global.$primary;
+  font-weight: bold;
+}
+.productDetails-text-btn1:hover {
+  background-color: transparent !important;
+}
+
+.productDetails-counter-control {
+  box-shadow: none !important;
+  color: #000;
+  border: none;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  margin: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productDetails-counter-control:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.productDetails-count {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 16px;
+}
+
+//common
+.productDetails-flex {
+  display: flex;
+}
+.productDetails-flex-row {
+  flex-direction: row;
+}
+.productDetails-v-center {
+  align-items: center;
+}
+.productDetails-h-center {
+  justify-content: center;
+}
+.productDetails-space-between {
+  justify-content: space-between;
+}
+.productDetails-align-end {
+  align-self: flex-end;
+}
+.productDetails-flex-end {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.productDetails-p-6-12 {
+  padding: 6px 12px;
+}
+.productDetails-margin-right-2 {
+  margin-right: 2px;
+}
+.productDetails-margin-h-6 {
+  margin: 0px 6px 0px 6px;
+}
+.productDetails-margin-v-8 {
+  margin: 8px 0px 8px 0px;
+}
+.productDetails-margin-b-32 {
+  margin-bottom: 32px;
+}
+.productDetails-margin-b-16 {
+  margin-bottom: 10px;
+}
+
+.ProductDetailScreen-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ProductDetailScreen-btn {
+  width: 100%;
+  // font-family: global.$SemiBold;
+  border-radius: 10px;
+  padding: 12px;
+  border: 0px;
+  color: #fff;
+  &.primary {
+    background-color: global.$primary;
+  }
+  &.grey {
+    // background-color: global.$grey1;
+  }
+}
+.ProductDetailScreen-reviewButton {
+  background-color: transparent;
+  border: 1px solid global.$grey5;
+  font-family: global.$SemiBold;
+  border-radius: 10px;
+  padding: 5px 20px;
+  font-size: 14px;
+  color: #000;
+}
+.ProductDetailScreen-txt4 {
+  font-family: global.$SemiBold;
+  color: global.$grey1;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.review-modal-text{
+  font-size: 14px;
+  color: global.$grey4;
+}
+.review-item-card + .review-item-card{
+  margin-top: 20px;
+}

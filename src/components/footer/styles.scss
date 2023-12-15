@@ -1,0 +1,130 @@
+@use "../../config/styleVariable.scss" as global;
+
+// FEEDBACK
+
+.footer {
+  background: rgba(217, 217, 217, 0.4);
+}
+
+.feedback-container {
+  border: solid #e0e0e0;
+  border-width: 1px 0;
+  display: flex;
+  align-items: center;
+}
+.feedback-links {
+  text-decoration: none;
+  color: #000;
+  font-family: global.$SemiBold;
+  display: flex;
+  align-items: center;
+}
+.feedback-links > section div:nth-child(2) {
+  font-family: global.$Light;
+}
+.feedback-links > section div:nth-child(2) u {
+  text-decoration: none;
+  font-family: global.$SemiBold;
+  color: #0079c1;
+}
+.feedback-icons {
+  margin-right: 10px;
+  font-size: 23px;
+}
+// .feedback-mobile{
+
+// }
+
+// FEEDBACK MODAL
+
+.rating-container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.rate-text {
+  font-family: global.$Bold;
+  font-size: 20px;
+  text-align: center;
+}
+.rate-text-2 {
+  font-family: global.$SemiBold;
+  color: global.$grey5;
+  font-size: 13px;
+  text-align: center;
+}
+
+// FOOTER
+
+.footer-container {
+  margin-top: 25px;
+}
+
+.list-container {
+  @media screen and (max-width: 576px) {
+    margin-bottom: 20px;
+  }
+}
+.list-heading {
+  font-size: 14px;
+  font-family: global.$SemiBold;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+.list-container ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.list-container ul li {
+  font-family: global.$Light;
+  margin-bottom: 10px;
+}
+.listFooter-logo {
+  height: 70px;
+  margin-bottom: 16px;
+}
+.Payment-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+// FINAL FOOTER
+
+.final-footer {
+  border: solid #e0e0e0;
+  border-width: 1px 0 0;
+  margin-top: 22px;
+}
+.final-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+}
+.copyright-txt {
+  font-family: global.$SemiBold;
+  font-size: 14px;
+  @media screen and (max-width: 576px) {
+    font-size: 12px;
+  }
+}
+.copyright-txt-2 {
+  font-family: global.$Light;
+  font-size: 13px;
+  @media screen and (max-width: 576px) {
+    font-size: 10px;
+  }
+}
+.custom-link{
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,27 @@
+@use "../../config//styleVariable.scss" as global;
+
+.dataTableEnquiry-Box1 {
+  text-align: center;
+  font-size: 28px;
+  font-family: global.$Bold;
+}
+.dataTableEnquiry-Box2 {
+  padding-left: 40px;
+}
+.dataTableEnquiry-Box3 {
+  display: flex;
+}
+.dataTableEnquiry-Txt1 {
+  margin-right: 30px;
+  font-size: 18px;
+  font-family: global.$Bold;
+}
+.dataTableEnquiry-Txt2 {
+  margin-right: 6px;
+  font-size: 18px;
+  font-family: global.$Bold;
+}
+.dataTableEnquiry-Txt3 {
+  font-size: 18px;
+  font-family: global.$SemiBold;
+}

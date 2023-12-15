@@ -1,0 +1,85 @@
+@use "../../config/styleVariable.scss" as global;
+
+// index-------------->
+.overView-Box1 {
+  margin-bottom: 20px;
+}
+.overView-Box3 {
+  width: 100%;
+  padding: 18px;
+  border: 1px solid rgb(239, 239, 239);
+  border-radius: 10px;
+}
+.overView-Box4 {
+  width: 100%;
+  padding: 18px;
+  border: 1px solid rgb(239, 239, 239);
+  border-radius: 10px;
+}
+// bar graph------------->
+
+.DashboardPurschaseGrph-Box1 {
+  width: 100%;
+  min-height: 200px;
+}
+.DashboardPurschaseGrph-Box2 {
+  width: 100%;
+}
+.DashboardPurschaseGrph-Tx1 {
+  margin-bottom: 10px;
+  font-family: global.$Bold;
+  font-size: 25px;
+}
+// piechart----------------->
+.Piechart-Box1 {
+  width: 100%;
+}
+// table------------->
+.newProductsOverView-Box2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.OverView-Text {
+  font-family: global.$Bold;
+  font-size: 25px;
+}
+.OverView-Text1 {
+  font-family: global.$Bold;
+  font-size: 20px;
+}
+// oldproducts----------->
+.productsOverView-Box2 {
+  width: 100%;
+  background: rgb(251, 250, 250);
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 150px;
+}
+.productsOverView-Box1 {
+  padding: 15px;
+  @media screen and (max-width: 768px) {
+    padding: 0px;
+    padding-left: 10px;
+  }
+}
+.productsOverView-Txt1 {
+  font-family: global.$Bold;
+  font-size: 18px;
+  @media screen and (min-width: 768px) and (max-width: 968px) {
+    font-size: 15px;
+  }
+}
+.productsOverView-Txt2 {
+  font-family: global.$Bold;
+  font-size: 38px;
+  @media screen and (min-width: 768px) and (max-width: 968px) {
+    font-size: 19px;
+  }
+}
+.productsOverView-Txt3 {
+  font-family: global.$Regular;
+  font-size: 16px;
+}

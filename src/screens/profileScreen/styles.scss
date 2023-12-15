@@ -1,0 +1,269 @@
+@use "../../config/styleVariable.scss" as global;
+$sidebar_menu_color:#f0e9ed;
+$sidebar_menu_hover:#f0efef;
+.ProfileScreen-box {
+  padding-top: 5px;
+  padding-right: 10px;
+  height: 90vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.profile-sideBar {
+  width: 100%;
+  height: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgb(250, 250, 250);
+  border-right: .5px solid rgb(239, 239, 239);
+}
+
+.profile-menu {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  color: rgb(76, 76, 76);
+  border-radius: 12px;
+  &:hover {
+    background-color: $sidebar_menu_hover;
+    color: global.$primary;
+    cursor: pointer;
+    padding: 10px 0;
+    width: 100%;
+    padding-left: 5px;
+  }
+}
+
+.profile-menu-selected {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding-left: 5px;
+  color: rgb(109, 109, 109);
+  background-color: $sidebar_menu_color;
+  color: global.$primary;
+  cursor: pointer;
+  padding: 10px 0;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.profile-sidebar-txt1 {
+  font-family: global.$SemiBold;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.profile-sidebar-txt2 {
+  font-family: global.$SemiBold;
+  font-size: 15px;
+  color: rgb(255, 65, 65);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.profile-dashboard-txt1 {
+  font-size: 20px;
+  color: grey;
+  font-family: global.$Regular;
+}
+
+.profile-dashboard-txt2 {
+  font-size: 25px;
+  color: rgb(70, 70, 70);
+  font-family: global.$SemiBold;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+.profile-dashboard-txt5 {
+  font-size: 16px;
+  color: rgb(70, 70, 70);
+  font-family: global.$SemiBold;
+  margin-right: 20px;
+}
+.profile-edit-btn {
+  font-size: 16px;
+  color: global.$primary;
+  font-family: global.$SemiBold;
+  cursor: pointer;
+  user-select: none;
+  &:hover {
+    color: global.$grey2;
+  }
+}
+.profile-dashboard-Box2 {
+  margin-right: 15px;
+}
+.profile-dashboard-Box3 {
+  padding: 15px;
+  font-family: global.$SemiBold;
+  font-size: 20px;
+}
+.profile-dashboard-Box4 {
+  text-align: center;
+  color: global.$primary;
+  font-size: 18px;
+  font-family: global.$SemiBold;
+}
+.profile-dashboard-Box5 {
+  color: global.$grey1;
+  font-size: 20px;
+  font-family: global.$SemiBold;
+}
+.profile-dashboard-txt3 {
+  font-size: 20px;
+  color: rgb(62, 62, 62);
+  font-family: global.$Regular;
+}
+
+.profile-dashboard-txt4 {
+  font-size: 13px;
+  color: rgb(111, 111, 111);
+  font-family: global.$SemiBold;
+}
+.profile-dashboard-txt6 {
+  font-size: 24px;
+  color: rgb(111, 111, 111);
+  font-family: global.$SemiBold;
+}
+.profile-dashboard-txt7 {
+  font-size: 17px;
+  font-family: global.$SemiBold;
+}
+.profile-dashboard-txt8 {
+  font-size: 15px;
+  font-family: global.$Regular;
+}
+.profile-dashboard-txt9 {
+  font-size: 17px;
+  font-family: global.$SemiBold;
+  color: global.$primary;
+}
+.profile-dashboard-txt10 {
+  line-height: 20px;
+  font-size: 15px;
+  font-family: global.$SemiBold;
+}
+.profile-dashboard-txt11 {
+  list-style-type: none;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: global.$SemiBold;
+}
+.profile-dashboard-txt12 {
+  line-height: 25px;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: global.$SemiBold;
+}
+.profile-dashboard-Box1 {
+  display: flex;
+  align-items: center;
+  // flex-direction: row;
+}
+.profile-dashboard-Btn2 {
+  background-color: global.$primary;
+  font-size: 17px;
+  font-family: global.$Bold;
+  color: #fff;
+  border: none;
+  &:hover {
+    border: none;
+    color: global.$primary;
+    background-color: #fff;
+    border: 2px solid global.$primary;
+  }
+}
+.profile-dashboard-Btn3 {
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
+}
+
+.profile-sideBar-menu {
+}
+
+.emptyOrders {
+  width: "100%";
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.emptyOrders-txt1 {
+  color: global.$primary;
+  font-family: global.$SemiBold;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.emptyOrders-txt2 {
+  color: global.$grey2;
+  font-family: global.$SemiBold;
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.emptyButton {
+  height: 45px;
+  width: 200px;
+  font-family: global.$SemiBold;
+  font-size: 15px;
+}
+
+.Profile-Sidebar {
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    display: none;
+  }
+}
+// PhoneVerifyOtp-------------->
+.PhoneVerifyOtp-txt2 {
+  font-size: 20px;
+  font-family: global.$Bold;
+  color: rgb(70, 70, 70);
+}
+.PhoneLogin {
+  padding: 6px;
+}
+// editName------------------ ->
+.editName-Text1 {
+  padding: 6px;
+}
+.editName-Text2 {
+  text-align: center;
+  font-family: global.$Bold;
+  font-size: 20px;
+  color: rgb(70, 70, 70);
+}
+
+// editEmail------------------->
+.editEmail-Text2 {
+  text-align: center;
+  font-family: global.$Bold;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(70, 70, 70);
+}
+.profileDashboard-avatar{
+  border: 2px solid #a10244;
+}
+.profileDashboard-hrStyle {
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .profileDashboard-hrStyle {
+    width: 100%;
+  }
+}

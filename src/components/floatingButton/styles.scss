@@ -1,0 +1,61 @@
+@use "../../config/styleVariable.scss" as global;
+
+.floating-button-container {
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 1000;
+}
+
+.floating-button {
+  color: #fff;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50% 20% 50% 50%;
+  cursor: pointer;
+  background-color: global.$primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popoverInnerContainer {
+  // height: 400px;
+  height: 500px;
+  width: 340px;
+  padding: 12px;
+}
+.socialMediaContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+.socialMediaContainer div {
+  margin-right: 18px;
+  color: #000;
+}
+.socialMediaContainer span {
+  color: #000;
+}
+.customMsg {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  // align-items: flex-end;
+  gap: 20;
+}
+.message-input {
+  height: 200px !important;
+}
+.floating-txt1 {
+  font-family: global.$SemiBold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.FloatingButton-Btn1 {
+  text-align: end;
+}

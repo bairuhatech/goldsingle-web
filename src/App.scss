@@ -1,0 +1,149 @@
+.Screen-box {
+  min-height: 50vh;
+  background-color: #fff;
+  padding: 0px 66px;
+  margin-top: -9px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 0px 0px;
+  }
+}
+
+.Loading-box {
+  min-height: 70vh;
+  background-color: #fff;
+  padding: 0px 66px;
+  margin-top: -6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Horizontal-Pscroll {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    padding-left: 10px;
+  }
+}
+
+.Horizontal-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Horizontal-Heading1 {
+  font-size: 25px;
+  font-family: "Catamaran-Bold";
+  color: #000;
+  margin-left: 4px;
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.Horizontal-PscrollBox {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.Horizontal-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  margin-right: 16px;
+  height: 300px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    width: 150px;
+    height: 270px;
+  }
+}
+
+.Horizontal-PscrollBox::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.Horizontal-btn1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(183, 183, 183);
+  color: #000;
+  background-color: #fff;
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.Horizontal-btn2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(183, 183, 183);
+  color: #000;
+  background-color: #fff;
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.Horizontal-viewButton {
+  font-family: "Catamaran-Bold";
+  margin-right: 16px;
+  font-size: 14px;
+  padding-top: 10px;
+  color: gray;
+}
+
+.slider-btn-left {
+  inset: 50% auto auto -20px;
+  transform: translateY(-100%);
+}
+
+.slider-btn-right {
+  inset: 50% -20px auto auto;
+  transform: translateY(-100%);
+}
+
+.w-300 {
+  width: 300px;
+}
+.ftscreen-fnt {
+  & div,
+  & p,
+  & li {
+    font-family: "Catamaran-Regular";
+  }
+
+  & h5,
+  & h6,
+  & h1,
+  & h2,
+  & h3,
+  & h4 {
+    font-family: "Catamaran-Bold";
+  }
+}
+
+.input-form-label {
+  font-size: 14px;
+  color: rgb(101, 101, 101);
+  font-family: "Catamaran-SemiBold";
+}
+.catamaran-bold {
+  font-family: "Catamaran-Bold";
+}
+.catamaran-regular {
+  font-family: "Catamaran-Medium";
+}

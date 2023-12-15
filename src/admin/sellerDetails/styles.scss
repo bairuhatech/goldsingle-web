@@ -1,0 +1,151 @@
+@use "../../config/styleVariable.scss" as global;
+.detail-container {
+  padding: 24px;
+}
+.TotalscardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Totalscard {
+  height: 140px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  border-radius: 10px;
+  @media screen and (max-width: 576px) {
+    width: 230px;
+    margin-top: 10px;
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-family: glo;
+  color: #1f2937;
+}
+
+.title-text {
+  font-family: global.$Regular;
+  color: #374151;
+  font-size: 18px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.data p {
+  // margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-family: global.$Bold;
+  text-align: left;
+}
+.data .range {
+  position: relative;
+  background-color: #e5e7eb;
+  width: 100%;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.data .range .fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: global.$primary;
+  width: 76%;
+  height: 100%;
+  border-radius: 0.25rem;
+}
+
+.datail-card {
+  min-height: 350px;
+}
+.card-heading {
+  font-family: global.$Bold;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 6px;
+}
+.card-items {
+  list-style: none;
+}
+.card-items li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.key {
+  font-family: global.$SemiBold;
+  color: #000000;
+  font-size: 15px;
+}
+.value {
+  font-family: global.$Regular;
+  font-size: 15px;
+}
+
+.download-btn{
+    background-color: global.$primary;
+    color: #ffffff;
+    font-family: global.$Bold;
+    font-size: 13px;
+    padding: 6px 10px 6px 8px;
+    outline: none;
+    border-radius: 6px;
+    border: none;
+    &:hover{
+        opacity: 0.9;
+    }
+}
+  
+  .seller-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .seller-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  
+  .seller-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .seller-details {
+    text-align: left;
+  }
+  
+  .seller-name {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .seller-email {
+    margin: 0;
+    font-size: 0.8em;
+    color: #555;
+  }
+  .call-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
