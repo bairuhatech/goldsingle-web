@@ -24,7 +24,7 @@ function BulkOrderEnquires() {
           fill in the details below and give us an opportunity to Help You Buy.
         </div>
         <div className="p-2 " style={{ textAlign: "justify" }}>
-          <a href="mailto:support@nextme.com">Just send us an email</a> with
+          <a href="mailto:support@goldbazar.com">Just send us an email</a> with
           your company’s contact details and the products that you are
           interested in and we will come back to you as soon as possible.
         </div>

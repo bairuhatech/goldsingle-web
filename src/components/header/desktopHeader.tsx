@@ -61,7 +61,7 @@ function DeskTop() {
         <div>{t("cart")}</div>
         <div style={{ margin: 4 }} />
         <div className="DesktopHeader">
-          <Badge count={Cart.items.length} color="#a10244">
+          <Badge count={Cart.items.length} color="#DA9100">
             <PiShoppingCartSimple size={25} color="grey" />
           </Badge>
         </div>

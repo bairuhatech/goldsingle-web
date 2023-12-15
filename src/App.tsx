@@ -63,7 +63,7 @@ function App() {
           theme={{
             token: {
               fontFamily: "Catamaran-Medium",
-              colorPrimary: "#a10244",
+              colorPrimary: "#DA9100",
               colorBorder: "#9a9eaa",
               lineWidth: 1.8,
               controlOutlineWidth: 0,

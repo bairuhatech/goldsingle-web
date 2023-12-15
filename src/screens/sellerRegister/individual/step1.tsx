@@ -264,7 +264,7 @@ function IndividualStep1({ register, loading, states, moveToNextStep, goBack }: 
                 </Select>
               </Form.Item>
               <Checkbox>
-                By continuing, I agree to NextMe’s{" "}
+                By continuing, I agree to Gold Bazar’s{" "}
                 <a href="/terms-and-conditions" target="_blank">
                   Terms of Use
                 </a>{" "}
@@ -295,13 +295,13 @@ function IndividualStep1({ register, loading, states, moveToNextStep, goBack }: 
           <Col md={8}>
             <div className="sellerRegister-box2">
               <p className="sellerRegister-subHeading">
-                Grow your business faster by selling on NextMe
+                Grow your business faster by selling on Gold Bazar
               </p>
               <p className="sellerRegister-text1">
-                Accelerate your business growth on NextMe, a dynamic marketplace
+                Accelerate your business growth on Gold Bazar, a dynamic marketplace
                 connecting sellers with a vast and engaged audience. Leverage
                 cutting-edge features, seamless user experience, and data-driven
-                insights to elevate your brand and boost sales. Join NextMe now
+                insights to elevate your brand and boost sales. Join Gold Bazar now
                 and propel your business into the future of online commerce.
               </p>
               <Row>

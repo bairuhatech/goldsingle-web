@@ -11,7 +11,7 @@ const EmptyOrders = () => {
       <div className="emptyOrders-txt1">No Orders Found</div>
       <div className="emptyOrders-txt2">
         You have no orders. <br />
-        Please start shopping at Next ME and place orders
+        Please start shopping at GOLD BAZAR and place orders
       </div>
       <br />
       <br />

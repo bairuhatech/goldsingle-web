@@ -47,7 +47,7 @@ function DataTable(props: any) {
           <AiOutlineEye
             cursor="pointer"
             size={20}
-            color="#a10244"
+            color="#DA9100"
             onClick={() => {
               navigate(`/auth/Orders/${_record?.id}`)
             }}

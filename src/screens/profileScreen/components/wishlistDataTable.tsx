@@ -64,7 +64,7 @@ function WishListDataTable(props: any) {
             onConfirm={async () => await props?.delete(_record)}
           >
             <Button type="link">
-              <AiTwotoneDelete cursor="pointer" size={25} color="#a10244" />
+              <AiTwotoneDelete cursor="pointer" size={25} color="#DA9100" />
             </Button>
           </Popconfirm>
         </div>

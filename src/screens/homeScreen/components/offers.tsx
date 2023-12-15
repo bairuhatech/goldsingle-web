@@ -17,7 +17,7 @@ function Offers(props: any) {
               <div>
                 <div className="Offers-txt1">Premium Roeses</div>
                 <div className="Offers-txt2">
-                  "Blossom with Beauty: Explore Nature's Elegance at NextMe –
+                  "Blossom with Beauty: Explore Nature's Elegance at Gold Bazar –
                   Your Premier Destination for Fresh Flowers!"
                 </div>
               </div>

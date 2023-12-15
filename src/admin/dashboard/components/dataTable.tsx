@@ -80,7 +80,7 @@ function DashBoardDataTable() {
           style={{ display: "flex", justifyContent: "space-around" }}
           onClick={() => viewDetailsPage(_record)}
         >
-          <AiOutlineEye cursor="pointer" size={25} color="#a10244" />
+          <AiOutlineEye cursor="pointer" size={25} color="#DA9100" />
         </div>
       ),
     },

@@ -11,7 +11,7 @@ function IndividualStep2({ loading, goBack }: any) {
       <h5 className="">Application Submitted</h5>
       <br />
       <div className="sellerRegister-text2 mb-3">
-        You have Successfully registered as an Individual seller on Next ME! We
+        You have Successfully registered as an Individual seller on GOLD BAZAR! We
         will verify your application and get back to you
       </div>
 

@@ -13,7 +13,7 @@ const productsOverView = () => {
     {
       title: "PRODUCTS",
       amount: "0",
-      icon: <MdTrolley size={45} color="#a10244" />,
+      icon: <MdTrolley size={45} color="#DA9100" />,
     },
     {
       title: "PENDING AMOUNT",

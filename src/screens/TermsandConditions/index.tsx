@@ -20,21 +20,21 @@ function TermsandConditions() {
         <h5>Terms and conditions</h5>
         <h5 className="mt-4">Introduction</h5>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          Welcome to the NextME.com, service provided by NextME LLC. In using
-          the NextME.com service of NextME LLC you are deemed to have accepted
+          Welcome to the goldbazar.com, service provided by Gold Bazar LLC. In using
+          the goldbazar.com service of Gold Bazar LLC you are deemed to have accepted
           the terms and conditions listed below.
         </div>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          All products/services and information displayed on NextME.com
+          All products/services and information displayed on goldbazar.com
           constitute an “invitation to offer”. Your order for purchase
           constitutes your “offer” which shall be subject to the terms and
-          conditions as listed below. NextME.com reserves the right to accept or
+          conditions as listed below. goldbazar.com reserves the right to accept or
           reject your offer. If you have supplied us with your valid email
           address, we will notify you by email as soon as possible to confirm
           receipt of your order and email you again to confirm details and
           therefore process the order. Our acceptance of your order will take
           place upon dispatch of the product(s) ordered. No act or omission of
-          NextME.com prior to the actual dispatch of the product(s) ordered will
+          goldbazar.com prior to the actual dispatch of the product(s) ordered will
           constitute acceptance of your offer.
         </div>
         <h5 className="mt-4">Membership Eligibility</h5>
@@ -49,22 +49,22 @@ function TermsandConditions() {
           can transact on behalf of you if they are registered users/members.
           You are prohibited from purchasing any material which is for adult
           consumption the sale or purchase of which to/by minors are strictly
-          prohibited. NextME.com reserves the right to terminate your membership
-          and refuse to provide you with access to the Site if NextME.com
+          prohibited. goldbazar.com reserves the right to terminate your membership
+          and refuse to provide you with access to the Site if goldbazar.com
           discovers that you are under the age of 18 years. The Site is not
           available to persons whose membership has been suspended or terminated
-          by NextME.com for any reason whatsoever. If you are registering as a
+          by goldbazar.com for any reason whatsoever. If you are registering as a
           business entity, you represent that you have the authority to bind the
           entity to this User Agreement. Those who choose to access this Site
           from outside Dubai are responsible for compliance with local laws if
-          and to the extent local laws are applicable. NextME.com will deliver
+          and to the extent local laws are applicable. goldbazar.com will deliver
           the products only within its jurisdiction and will not be liable for
           any claims relating to any products ordered from outside its
           jurisdiction. Except where additional terms and conditions are
           provided which are product specific, these terms and conditions
           supersede all previous representations, understandings, or agreements
           and shall prevail notwithstanding any variance with any other terms of
-          any order submitted. By using the services of NextME.com you agree to
+          any order submitted. By using the services of goldbazar.com you agree to
           be bound by the Terms and Conditions.
         </div>
         <h5 className="mt-4">Account and Registration Obligations</h5>
@@ -76,14 +76,14 @@ function TermsandConditions() {
           responsible for maintaining the confidentiality of Your Account and
           Password and for restricting access to your computer, and you agree to
           accept responsibility for all activities that occur under Your Account
-          or Password. NextME.com shall not be liable to any person for any loss
+          or Password. goldbazar.com shall not be liable to any person for any loss
           or damage which may arise as a result of any failure by you to protect
           your password or account. If you know or suspect that someone else
           knows your password you should notify us by contacting us immediately
-          through the address provided below. If NextME.com has reason to
+          through the address provided below. If goldbazar.com has reason to
           believe that there is likely to be a breach of security or misuse of
-          the NextME.com Site, we may require you to change your password or we
-          may suspend your account without any liability to NextME.com.
+          the goldbazar.com Site, we may require you to change your password or we
+          may suspend your account without any liability to goldbazar.com.
         </div>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
           You also agree to:
@@ -91,7 +91,7 @@ function TermsandConditions() {
 
         <div style={{ textAlign: "justify" }}>
           1. Provide true, accurate, current and complete information about
-          yourself as prompted by Next ME’s registration form (such information
+          yourself as prompted by GOLD BAZAR’s registration form (such information
           being the “Registration Data”)
         </div>
         <div style={{ textAlign: "justify" }}>
@@ -100,39 +100,39 @@ function TermsandConditions() {
         </div>
         <div style={{ textAlign: "justify" }}>
           If you provide any information that is untrue, inaccurate, incomplete,
-          or not current or if NextME.com has reasonable grounds to suspect that
+          or not current or if goldbazar.com has reasonable grounds to suspect that
           such information is untrue, inaccurate, and not current or not in
-          accordance with the User Agreement, NextME.com has the right to
+          accordance with the User Agreement, goldbazar.com has the right to
           indefinitely suspend or terminate your membership and refuse to
           provide you with access to the Site.
         </div>
 
         <h5 className="mt-4">Pricing Information</h5>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          While NextME.com strives to provide accurate product and pricing
-          information, pricing or typographical errors may occur. NextME.com
+          While goldbazar.com strives to provide accurate product and pricing
+          information, pricing or typographical errors may occur. goldbazar.com
           cannot confirm the price of a product until after you order. In the
           event that a product is listed at an incorrect price or with incorrect
           information due to an error in pricing or product information,
-          NextME.com shall have the right, at our sole discretion, to refuse or
+          goldbazar.com shall have the right, at our sole discretion, to refuse or
           cancel any orders placed for that product, unless the product has
           already been dispatched. In the event that an item is wrongly priced,
-          NextME.com may, at its discretion, either contact you for instructions
+          goldbazar.com may, at its discretion, either contact you for instructions
           or cancel your order and notify you of such cancellation. Unless the
           product ordered by you has been dispatched, your offer will not be
-          deemed accepted and NextME.com will have the right to modify the price
+          deemed accepted and goldbazar.com will have the right to modify the price
           of the product and contact you for further instructions using the
           e-mail address provided by you during the time of registration, or
           cancel the order and notify you of such cancellation. In the event
-          that NextME.com accepts your order the same shall be debited to your
+          that goldbazar.com accepts your order the same shall be debited to your
           credit card account and duly notified to you by email that the payment
-          has been processed. The payment may be processed prior to NextME.com
+          has been processed. The payment may be processed prior to goldbazar.com
           dispatch of the product that you have ordered. If we have to cancel
           the order after we have processed the payment, the said amount will be
           reversed back to your credit card account. No cash disbursement shall
           be made under any condition whatsoever. We strive to provide you with
-          the best prices possible on NextME.com as well as in all our stores
-          under Next ME LLC. However, sometimes a price online does not match
+          the best prices possible on goldbazar.com as well as in all our stores
+          under GOLD BAZAR LLC. However, sometimes a price online does not match
           the price in a store. In our effort to be the lowest price provider in
           your particular geographic region, store pricing will sometimes differ
           from online prices. Prices and availability are subject to change
@@ -163,7 +163,7 @@ function TermsandConditions() {
           <img src={EDfilter} alt="ExpressFilter" /> filter available on the
           website. Express Delivery is absolutely free for DG Members.
         </div>
-        <h5 className="mt-4">Cancellation by NextME.com</h5>
+        <h5 className="mt-4">Cancellation by goldbazar.com</h5>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
           Please note that there may be certain orders that we are unable to
           accept and must cancel. We reserve the right, at our sole discretion,
@@ -192,37 +192,37 @@ function TermsandConditions() {
           In case we receive a cancellation notice and the order has not been
           processed/approved by us, we shall cancel the order and refund the
           entire amount. We will not be able to cancel orders that have already
-          been processed and shipped out by us. NextME.com has the full right to
+          been processed and shipped out by us. goldbazar.com has the full right to
           decide whether an order has been processed or not. The customer agrees
-          not to dispute the decision made by NextME.com and accept NextME.com’s
+          not to dispute the decision made by goldbazar.com and accept goldbazar.com’s
           decision regarding the cancellation.
         </div>
         <h5 className="mt-4">Cancellations By Seller</h5>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
           In case the seller is unable to fulfil order due to stock
-          unavailability, Next ME Customer Care will connect with customer &
+          unavailability, GOLD BAZAR Customer Care will connect with customer &
           assist with alternatives.
         </div>
         <h5 className="mt-4">Credit Card Details</h5>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
           You agree, understand and confirm that the credit card details
-          provided by you for availing of services on NextME.com will be correct
+          provided by you for availing of services on goldbazar.com will be correct
           and accurate and you shall not use the credit card which is not
           lawfully owned by you, i.e. in a credit card transaction, you must use
           your own credit card. You further agree and undertake to provide the
-          correct and valid credit card details to NextME.com. Further the said
-          information will not be utilized and shared by NextME.com with any of
+          correct and valid credit card details to goldbazar.com. Further the said
+          information will not be utilized and shared by goldbazar.com with any of
           the third parties unless required for fraud verifications or by law,
-          regulation or court order. NextME.com will not be liable for any
+          regulation or court order. goldbazar.com will not be liable for any
           credit card fraud. The liability for use of a card fraudulently will
           be on you and the onus to ‘prove otherwise’ shall be exclusively on
           you.
         </div>
         <h5 className="mt-4">Fraudulent /Declined Transactions</h5>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          NextME.com reserves the right to recover the cost of goods, collection
+          goldbazar.com reserves the right to recover the cost of goods, collection
           charges and lawyers fees from persons using the Site fraudulently.
-          NextME.com reserves the right to initiate legal proceedings against
+          goldbazar.com reserves the right to initiate legal proceedings against
           such persons for fraudulent use of the Site and any other unlawful
           acts or acts or omissions in breach of these terms and conditions.
         </div>
@@ -256,23 +256,23 @@ function TermsandConditions() {
           <li>
             That in the event that a non-delivery occurs on account of a mistake
             by you (i.e. wrong name or address or any other wrong information)
-            any extra cost incurred by NextME.com for redelivery shall be
+            any extra cost incurred by goldbazar.com for redelivery shall be
             claimed from you.
           </li>
           <li>
-            That you will use the services provided by NextME.com, its
+            That you will use the services provided by goldbazar.com, its
             affiliates, consultants, and contracted companies, for lawful
             purposes only and comply with all applicable laws and regulations
             while using the Site and transacting on the Site.
           </li>
           <li>
             You will provide authentic and true information in all instances
-            where such information is requested of you. NextME.com reserves the
+            where such information is requested of you. goldbazar.com reserves the
             right to confirm and validate the information and other details
             provided by you at any point of time. If upon confirmation your
-            details are found not to be true (wholly or partly), NextME.com has
+            details are found not to be true (wholly or partly), goldbazar.com has
             the right in its sole discretion to reject the registration and
-            debar you from using the Services of NextME.com and / or other
+            debar you from using the Services of goldbazar.com and / or other
             affiliated websites without prior intimation whatsoever.
           </li>
           <li>
@@ -352,7 +352,7 @@ function TermsandConditions() {
         <ul className="bullet-list ps-4">
           <li>
             Cash on Delivery (COD) is applicable as a payment method for
-            products sold by Next ME and some selected sellers.
+            products sold by GOLD BAZAR and some selected sellers.
           </li>
           <li>
             In addition to any shipping charges, customers shall be required to
@@ -379,7 +379,7 @@ function TermsandConditions() {
             If the order is undeliverable (where the courier partner has made
             reasonable attempts to deliver, but it is either refused or no
             delivery can be made), the courier will cancel the order & return
-            the order to Next ME. Customer is only allowed to reschedule once of
+            the order to GOLD BAZAR. Customer is only allowed to reschedule once of
             up to a maximum of two (2) business days only.
           </li>
           <li>
@@ -388,7 +388,7 @@ function TermsandConditions() {
             (non-cash) except cash during the delivery of the product.
           </li>
           <li>
-            All eligible refunds will be processed through the online Next ME
+            All eligible refunds will be processed through the online GOLD BAZAR
             gift card to the customer account. The gift card can be used for any
             online purchases.
           </li>
@@ -402,14 +402,14 @@ function TermsandConditions() {
             After payment has been handed over to the courier and the order has
             been handed over to the customer, the delivery process is completed
             and successful. If you find any issue with your order please contact
-            us at 600-502034, email us at support@NextME.com or visit the
-            nearest Next ME store for assistance.
+            us at 600-502034, email us at support@goldbazar.com or visit the
+            nearest GOLD BAZAR store for assistance.
           </li>
         </ul>
         <h5 className="mt-4">Return & Exchange</h5>
         <ul className="bullet-list ps-4">
           <li>
-            All returns are in accordance with the Next ME Return & Exchange
+            All returns are in accordance with the GOLD BAZAR Return & Exchange
             Policy Version 2.0.
           </li>
           <li>
@@ -417,9 +417,9 @@ function TermsandConditions() {
             only through courier pickup and shall not be accepted at the store.
           </li>
           <li>
-            For Exchange or Return, the customer can call Next ME Helpline
-            Number (600 502034), email us at support@NextME.com, or visit the
-            Next ME store for assistance.
+            For Exchange or Return, the customer can call GOLD BAZAR Helpline
+            Number (600 502034), email us at support@goldbazar.com, or visit the
+            GOLD BAZAR store for assistance.
           </li>
           <li>
             Any returned product must be in the same condition as received and
@@ -430,25 +430,25 @@ function TermsandConditions() {
           </li>
           <li>
             For delivered products, wherever the return condition is met as per
-            Next ME return policy and post-inspection, Next ME will refund the
+            GOLD BAZAR return policy and post-inspection, GOLD BAZAR will refund the
             product amount (excluding the amount paid for the shipping fees) in
-            the mode of an online Next ME gift card within 24 hours.
+            the mode of an online GOLD BAZAR gift card within 24 hours.
           </li>
           <li>
             In case the product received by the customer is damaged, defective,
-            or not as per the product specification, Next ME will inspect the
+            or not as per the product specification, GOLD BAZAR will inspect the
             returned product & only if the product qualifies the return as per
-            the return & exchange policy. Next ME will refund the product amount
-            along with any shipping fees incurred in the mode of Next ME’s
+            the return & exchange policy. GOLD BAZAR will refund the product amount
+            along with any shipping fees incurred in the mode of GOLD BAZAR’s
             online gift card within 24 hours.
           </li>
           <li>
             For all canceled orders and products that are shipped but not
-            delivered, the customer will receive a full refund as Next ME online
+            delivered, the customer will receive a full refund as GOLD BAZAR online
             gift card within 24 hours.
           </li>
           <li>
-            Next ME reserves the right to collect a convenience fee for all
+            GOLD BAZAR reserves the right to collect a convenience fee for all
             return pickups and disable cash on delivery option for accounts that
             have a high percentage of returns and shipments not accepted, of the
             number of orders placed through such accounts.
@@ -458,11 +458,11 @@ function TermsandConditions() {
 
         <div className="d-flex" style={{ textAlign: "justify" }}>
           To check the status of the warranty of products you purchased from
-          Next ME, visit https://nextmiddleeast.com/warranty/
+          GOLD BAZAR, visit https://goldbazar.com/warranty/
         </div>
         <div className="d-flex p-2 fw-bold mt-2">Store-pick up</div>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          Orders are available for Store Pickup at the below Next ME Store
+          Orders are available for Store Pickup at the below GOLD BAZAR Store
           Locations at no additional Shipping Charge:
         </div>
         <ul className="bullet-list ps-4">
@@ -536,10 +536,10 @@ function TermsandConditions() {
           Modification of Terms & Conditions of Service
         </div>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          NextME.com may at any time modify the Terms & Conditions of Use of the
+          goldbazar.com may at any time modify the Terms & Conditions of Use of the
           site without any prior notification to you. You can access the latest
-          version of the User Agreement at any given time on NextME.com. You
-          should regularly review the Terms & Conditions on NextME.com. In the
+          version of the User Agreement at any given time on goldbazar.com. You
+          should regularly review the Terms & Conditions on goldbazar.com. In the
           event the modified Terms & Conditions is not acceptable to you, you
           should discontinue using the service. However, if you continue to use
           the service you shall be deemed to have agreed to accept and abide by
@@ -555,24 +555,24 @@ function TermsandConditions() {
           dispute or difference either in interpretation or otherwise, of any
           terms of this User Agreement between the parties hereto, the same
           shall be referred to an independent arbitrator who will be appointed
-          by NextME LLC. and his decision shall be final and binding on the
+          by Gold Bazar LLC. and his decision shall be final and binding on the
           parties hereto. The arbitration shall be held in Dubai. The laws of
           UAE shall be applicable in such aspects. Reviews, Feedback,
           Submissions All reviews, comments, feedback, postcards, suggestions,
           ideas, and other submissions disclosed, submitted or offered to
-          NextME.com on or by this Site or otherwise disclosed, submitted or
+          goldbazar.com on or by this Site or otherwise disclosed, submitted or
           offered in connection with your use of this Site (collectively, the
-          “Comments”) shall be and remain NextME.com property. Such disclosure,
+          “Comments”) shall be and remain goldbazar.com property. Such disclosure,
           submission or offer of any Comments shall constitute an assignment to
-          NextME.com of all worldwide rights, titles and interests in all
+          goldbazar.com of all worldwide rights, titles and interests in all
           copyrights and other intellectual properties in the Comments. Thus,
-          NextME.com owns exclusively all such rights, titles and interests and
+          goldbazar.com owns exclusively all such rights, titles and interests and
           shall not be limited in any way in its use, commercial or otherwise,
-          of any Comments. NextME.com will be entitled to use, reproduce,
+          of any Comments. goldbazar.com will be entitled to use, reproduce,
           disclose, modify, adapt, create derivative works from, publish,
           display and distribute any Comments you submit for any purpose
           whatsoever, without restriction and without compensating you in any
-          way. NextME.com is and shall be under no obligation (1) to maintain
+          way. goldbazar.com is and shall be under no obligation (1) to maintain
           any Comments in confidence; (2) to pay you any compensation for any
           Comments; or (3) to respond to any Comments. You agree that any
           Comments submitted by you to the Site will not violate this policy or
@@ -582,27 +582,27 @@ function TermsandConditions() {
           by you to the Site will be or contain libelous or otherwise unlawful,
           threatening, abusive or obscene material, or contain software viruses,
           political campaigning, commercial solicitation, chain letters, mass
-          mailings or any form of “spam”. NextME.com does not regularly review
+          mailings or any form of “spam”. goldbazar.com does not regularly review
           posted Comments, but does reserve the right (but not the obligation)
           to monitor and edit or remove any Comments submitted to the Site. You
-          grant NextME.com the right to use the name that you submit in
+          grant goldbazar.com the right to use the name that you submit in
           connection with any Comments. You agree not to use a false email
           address, impersonate any person or entity, or otherwise mislead as to
           the origin of any Comments you submit. You are and shall remain solely
           responsible for the content of any Comments you make and you agree to
-          indemnify NextME.com and its affiliates for all claims resulting from
-          any Comments you submit. NextME.com and its affiliates take no
+          indemnify goldbazar.com and its affiliates for all claims resulting from
+          any Comments you submit. goldbazar.com and its affiliates take no
           responsibility and assume no liability for any Comments submitted by
           you or any third party.
         </div>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          Next ME’s customer touchpoints including website, mobile app, social
-          media, are for customers to interact with Next ME to enquire about
+          GOLD BAZAR’s customer touchpoints including website, mobile app, social
+          media, are for customers to interact with GOLD BAZAR to enquire about
           products, promotions, availability and to resolve any related issues
           in accordance with the prevailing UAE laws governing such
-          interactions. Next ME reserves the right to take appropriate action
+          interactions. GOLD BAZAR reserves the right to take appropriate action
           including legal recourse incase customers act against any such
-          prevailing laws at any of the Next ME customer touchpoints.
+          prevailing laws at any of the GOLD BAZAR customer touchpoints.
         </div>
         <div className="p-2" style={{ textAlign: "justify" }}>
           For the benefit of customers the Cyber Crimes Law (Federal Law No. 5
@@ -633,29 +633,29 @@ function TermsandConditions() {
         </div>
         <div className="d-flex p-2 fw-bold mt-2">Copyright & Trademark</div>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          NextME.com and its suppliers and licensors expressly reserve all
+          goldbazar.com and its suppliers and licensors expressly reserve all
           intellectual property rights in all text, programs, products,
           processes, technology, content and other materials, which appear on
           this Site. Access to this Site does not confer and shall not be
           considered as conferring upon anyone any license under any of
-          NextME.com or any third party’s intellectual property rights. All
+          goldbazar.com or any third party’s intellectual property rights. All
           rights, including copyright, in this website are owned by or licensed
-          to NextME.com. Any use of this website or its contents, including
+          to goldbazar.com. Any use of this website or its contents, including
           copying or storing it or them in whole or part, other than for your
           own personal, non-commercial use is prohibited without the permission
-          of NextME.com. You may not modify, distribute or re-post anything on
-          this website for any purpose. The NextME.com names and logos and all
+          of goldbazar.com. You may not modify, distribute or re-post anything on
+          this website for any purpose. The goldbazar.com names and logos and all
           related product and service names, design marks and slogans are the
-          trademarks or service marks of NextME LLC. All other marks are the
+          trademarks or service marks of Gold Bazar LLC. All other marks are the
           property of their respective companies. No trademark or service mark
           license is granted in connection with the materials contained on this
           Site. Access to this Site does not authorize anyone to use any name,
           logo or mark in any manner. References on this Site to any names,
           marks, products or services of third parties or hypertext links to
           third party sites or information are provided solely as a convenience
-          to you and do not in any way constitute or imply NextME.com
+          to you and do not in any way constitute or imply goldbazar.com
           endorsement, sponsorship or recommendation of the third party,
-          information, product or service. NextME.com is not responsible for the
+          information, product or service. goldbazar.com is not responsible for the
           content of any third party sites and does not make any representations
           regarding the content or accuracy of material on such sites. If you
           decide to link to any such third party websites, you do so entirely at
@@ -671,36 +671,36 @@ function TermsandConditions() {
           transmit, distribute, display, modify, create derivative works from,
           sell or participate in any sale of or exploit in any way, in whole or
           in part, any of the Contents, the Site or any related software. All
-          software used on this Site is the property of NextME.com or its
+          software used on this Site is the property of goldbazar.com or its
           suppliers and protected by international copyright laws. The Contents
           and software on this Site may be used only as a shopping resource. Any
           other use, including the reproduction, modification, distribution,
           transmission, republication, display, or performance, of the Contents
           on this Site is strictly prohibited. Unless otherwise noted, all
           Contents are copyrights, trademarks, trade dress and/or other
-          intellectual property owned, controlled or licensed by NextME.com, one
+          intellectual property owned, controlled or licensed by goldbazar.com, one
           of its affiliates or by third parties who have licensed their
-          materials to NextME.com and are protected by international copyright
+          materials to goldbazar.com and are protected by international copyright
           laws. The compilation (meaning the collection, arrangement, and
           assembly) of all Contents on this Site is the exclusive property of
-          NextME.com and is also protected by international copyright laws.
+          goldbazar.com and is also protected by international copyright laws.
           Objectionable Material You understand that by using this Site or any
           services provided on the Site, you may encounter Content that may be
           deemed by some to be offensive, indecent, or objectionable, which
           Content may or may not be identified as such. You agree to use the
           Site and any service at your sole risk and that to the fullest extent
-          permitted under applicable law, NextME.com and its affiliates shall
+          permitted under applicable law, goldbazar.com and its affiliates shall
           have no liability to you for Content that may be deemed offensive,
           indecent, or objectionable to you.
         </div>
         <div className="d-flex p-2 fw-bold mt-2">Indemnity</div>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          You agree to defend, indemnify and hold harmless NextME.com, its
+          You agree to defend, indemnify and hold harmless goldbazar.com, its
           employees, directors, officers, agents and their successors and
           assigns from and against any and all claims, liabilities, damages,
           losses, costs and expenses, including attorney’s fees, caused by or
           arising out of claims based upon your actions or inactions, which may
-          result in any loss or liability to NextME.com or any third party
+          result in any loss or liability to goldbazar.com or any third party
           including but not limited to breach of any warranties, representations
           or undertakings or in relation to the non-fulfillment of any of your
           obligations under this User Agreement or arising out of the your
@@ -714,16 +714,16 @@ function TermsandConditions() {
         <div className="d-flex p-2 fw-bold mt-2">Termination</div>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
           This User Agreement is effective unless and until terminated by either
-          you or NextME.com. You may terminate this User Agreement at any time,
-          provided that you discontinue any further use of this Site. NextME.com
+          you or goldbazar.com. You may terminate this User Agreement at any time,
+          provided that you discontinue any further use of this Site. goldbazar.com
           may terminate this User Agreement at any time and may do so
           immediately without notice, and accordingly deny you access to the
-          Site, Such termination will be without any liability to NextME.com.
+          Site, Such termination will be without any liability to goldbazar.com.
           Upon any termination of the User Agreement by either you or
-          NextME.com, you must promptly destroy all materials downloaded or
+          goldbazar.com, you must promptly destroy all materials downloaded or
           otherwise obtained from this Site, as well as all copies of such
           materials, whether made under the User Agreement or otherwise.
-          NextME.com’s right to any Comments shall survive any termination of
+          goldbazar.com’s right to any Comments shall survive any termination of
           this User Agreement. Any such termination of the User Agreement shall
           not cancel your obligation to pay for the product already ordered from
           the Site or affect any liability that may have arisen under the User
@@ -738,7 +738,7 @@ function TermsandConditions() {
         </div>
         <div className="d-flex p-2 fw-bold mt-2">Communications</div>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          When you visit the Website or send emails to NextME.com, you are
+          When you visit the Website or send emails to goldbazar.com, you are
           communicating with us electronically. You consent to receive
           communications from us electronically. We will communicate with you by
           email or by posting notices on the Website. You agree that all
@@ -747,12 +747,11 @@ function TermsandConditions() {
           communications be in writing.
         </div>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          DISCLAIMER : NextME holds the rights to cancel any order in any of the
+          DISCLAIMER : Gold Bazar holds the rights to cancel any order in any of the
           below cases.
         </div>
         <div className="p-2" style={{ textAlign: "justify" }}>
-          <strong className="fw-bold;">Fraudulent Transactions : </strong> Next
-          ME holds the rights to cancel orders made with fraudulent email ID,
+          <strong className="fw-bold;">Fraudulent Transactions : </strong> Gold Bazar holds the rights to cancel orders made with fraudulent email ID,
           payment method and all kinds of bulk purchases. For placing bulk
           orders, customers are requested to route through{" "}
           <a href="/bulk-order">Here.</a>
@@ -777,7 +776,7 @@ function TermsandConditions() {
         </div>
         <ul className="bullet-list ps-4">
           <li>This is an exclusive “online” coupon.</li>
-          <li>It can only be used on Next ME UAE website (uae.NextME.com).</li>
+          <li>It can only be used on GOLD BAZAR UAE website (uae.goldbazar.com).</li>
           <li>It can be used only once and is not transferable.</li>
           <li>Coupon expires within one week issue date.</li>
           <li>
@@ -800,10 +799,10 @@ function TermsandConditions() {
           matches the intent of the original provision and the remainder of the
           agreement shall continue in effect. Unless otherwise specified herein,
           this agreement constitutes the entire agreement between you and
-          NextME.com with respect to the NextME.com sites/services and it
+          goldbazar.com with respect to the goldbazar.com sites/services and it
           supersedes all prior or contemporaneous communications and proposals,
-          whether electronic, oral or written, between you and NextME.com with
-          respect to the NextME.com sites/services. NextME.com’s failure to act
+          whether electronic, oral or written, between you and goldbazar.com with
+          respect to the goldbazar.com sites/services. goldbazar.com’s failure to act
           with respect to a breach by you or others does not waive its right to
           act with respect to subsequent or similar breaches.
         </div>
@@ -829,49 +828,48 @@ function TermsandConditions() {
           card issuer/bank may have debited.
         </div>
         <div className="p-2" style={{ textAlign: "justify" }}>
-          Country of Merchant Domicile: <br /> Next ME is a Limited Liability
+          Country of Merchant Domicile: <br /> GOLD BAZAR is a Limited Liability
           Company registered in Dubai, UAE.
         </div>
         <div className="my-4 fs-5 text-center">
           THIRD PARTY PRODUCTS / RE-SELLERS – Products which are “Sold by”
-          others on Next ME Website.
+          others on GOLD BAZAR Website.
         </div>
         <div className="p-2" style={{ textAlign: "justify" }}>
           <strong className="fw-bold">PLEASE NOTE: </strong>Along with the other
           terms and conditions these additional terms are applicable in case you
-          have bought any products not manufactured/traded by Next ME.com. In
+          have bought any products not manufactured/traded by GOLD BAZAR.com. In
           other words these additional terms and conditions are applicable in
-          case you buy products sold on Next ME.com by third party vendors
+          case you buy products sold on GOLD BAZAR.com by third party vendors
           and/or re-sellers. You understand and agree that there may be certain
           products, which will be sold on the Site by third party vendors
-          (‘Vendors and/or re-sellers’) Next ME.com may not be able to control
+          (‘Vendors and/or re-sellers’) GOLD BAZAR.com may not be able to control
           the transactions or the acts and omissions of the Vendors/re-sellers
           in such transactions. When you buy such products from
           Vendors/re-sellers on the Site the following additional terms and
           conditions will become applicable:
         </div>
         <div className="p-2" style={{ textAlign: "justify" }}>
-          Next ME.com is not responsible for any non-performance or breach of
-          any contract entered into between you and the Vendor/re-seller. Next
-          ME.com cannot and does not guarantee that the Vendors/re-sellers will
+          GOLD BAZAR.com is not responsible for any non-performance or breach of
+          any contract entered into between you and the Vendor/re-seller. goldbazar.com cannot and does not guarantee that the Vendors/re-sellers will
           perform any transaction concluded on the Site.
         </div>
         <div className="p-2" style={{ textAlign: "justify" }}>
-          Next ME.com does not make any representation or warranty as to the
+          GOLD BAZAR.com does not make any representation or warranty as to the
           attributes (such as quality, worth, marketability etc.) of the items
           or services proposed to be sold on the Site by the Vendor/re-seller.
-          In particular, Next ME.com does not implicitly or explicitly support
-          or endorse the sale of any items or services on the Site. Next ME.com
+          In particular, GOLD BAZAR.com does not implicitly or explicitly support
+          or endorse the sale of any items or services on the Site. GOLD BAZAR.com
           accepts no liability for any errors or omissions, whether on behalf of
           itself or third parties.
         </div>
         <div className="p-2" style={{ textAlign: "justify" }}>
-          You release and indemnify Next ME.com and/or any of its officers and
+          You release and indemnify GOLD BAZAR.com and/or any of its officers and
           representatives from any cost, damage, liability or other consequence
           of any of the actions of the Vendors/re-sellers on the Site and
           specifically waive any claims that you may have in this behalf under
           any applicable law. Notwithstanding its reasonable efforts in that
-          behalf, Next ME.com cannot control the information provided by other
+          behalf, GOLD BAZAR.com cannot control the information provided by other
           Vendors/re-sellers, which is made available on the Site. You may find
           other Vendor’s/re-sellers information to be offensive, harmful,
           inaccurate, or deceptive. Please use caution, common sense, and
@@ -884,7 +882,7 @@ function TermsandConditions() {
           to such transactions.
         </div>
         <div className="p-2" style={{ textAlign: "justify" }}>
-          Sellers at Next ME have to adhere to the same high standards of
+          Sellers at GOLD BAZAR have to adhere to the same high standards of
           service and authenticity of their advertised merchandise. Basically
           you receive what you have bought according to the advertised item.
         </div>
@@ -900,7 +898,7 @@ function TermsandConditions() {
         <div className="p-2" style={{ textAlign: "justify" }}>
           If your item is faulty or not in working condition due to a product
           defect or not functioning as it is supposed to – then you can still
-          return it. You may walk-in to any Next ME Store along with the invoice
+          return it. You may walk-in to any GOLD BAZAR Store along with the invoice
           and hand over the product at the Customer service desk. We will then
           handover the product to the seller. The seller will check the
           complaint and see if it is genuine. Upon their confirmation we will
@@ -947,7 +945,7 @@ function TermsandConditions() {
           be waived if the item was not as advertised, defective or not
           functioning as advertised. So basically if it is a return because you
           have simply changed your mind then the shipping fees will be retained
-          by Next ME and we just refund you amount paid for the item(s).
+          by GOLD BAZAR and we just refund you amount paid for the item(s).
         </div>
         <div className="p-2" style={{ textAlign: "justify" }}>
           You will be refunded the shipping fees for returned items not in
@@ -957,9 +955,9 @@ function TermsandConditions() {
           GUARANTEE AND/OR WARRANTY IS OFFERED ON ITEMS SOLD by other sellers
         </div>
         <div className="p-2" style={{ textAlign: "justify" }}>
-          There are different types of sellers on Next ME and hence different
+          There are different types of sellers on GOLD BAZAR and hence different
           Warranty offers. Based on the product type, warranty may be limited to
-          no warranty, limited warranty or default (1) year warranty. Next ME is
+          no warranty, limited warranty or default (1) year warranty. GOLD BAZAR is
           not responsible for those items however as a buyer you have several
           recourses for any complaints in regards to individual sellers.
         </div>
@@ -967,7 +965,7 @@ function TermsandConditions() {
           I THINK THE ITEM I BOUGHT MIGHT NOT BE A GENUINE ITEM , WHAT CAN I DO?
         </div>
         <div className="p-2" style={{ textAlign: "justify" }}>
-          Next ME does not tolerate any fake items to be displayed by any of its
+          GOLD BAZAR does not tolerate any fake items to be displayed by any of its
           sellers and strict action will be taken against any seller should this
           happen. Our Customer Service Teams will investigate thoroughly any
           such complaint and the selling of fake or banned items could lead to a
@@ -980,15 +978,14 @@ function TermsandConditions() {
           If within the seven (7) days – “No Questions Asked return period” –
           and you item deemed fake, then absolutely yes, so long it is in its
           original condition and with the original packaging intact, and you can
-          do so via the Customer Service Desk at any Next ME Store. After 7
+          do so via the Customer Service Desk at any GOLD BAZAR Store. After 7
           days, it depends on the seller’s approval.
         </div>
         <div className="d-flex p-2 fw-bold mt-2 mb-4">DISCLAIMER</div>
         <div className="p-2" style={{ textAlign: "justify" }}>
-          Next ME holds the rights to cancel any order in any of the below cases{" "}
+          GOLD BAZAR holds the rights to cancel any order in any of the below cases{" "}
           <br />
-          <strong className="fw-bold;">Fraudulent Transactions : </strong> Next
-          ME holds the rights to cancel orders made with fraudulent email ID,
+          <strong className="fw-bold;">Fraudulent Transactions : </strong> Gold Bazar holds the rights to cancel orders made with fraudulent email ID,
           payment method and all kinds of bulk purchases. For placing bulk
           orders, customers are requested to route through{" "}
           <a href="/bulk-order">Here.</a>
@@ -1007,7 +1004,7 @@ function TermsandConditions() {
           may occur while capturing information from the internet. Certain
           products may have different features in different region. Customer
           buys a product which may not have a feature which is advertiesed.{" "}
-          <br /> If the order is dispatched and delivered, Next ME will collect
+          <br /> If the order is dispatched and delivered, GOLD BAZAR will collect
           the item back from the customer <br /> and will do a full refund. If
           the unit is opened based on the condition of the package, a resale
           cost of 25% may be deducted from the selling price.
@@ -1031,8 +1028,7 @@ function TermsandConditions() {
           <li>Quotation Rejection charges will be applicable.</li>
           <li>Out of warranty deliveries will be against payment.</li>
           <li>
-            Units should be collected within 60 days after notification or Next
-            ME reserves the right to dispose of any unclaimed units.
+            Units should be collected within 60 days after notification or Gold Bazar reserves the right to dispose of any unclaimed units.
           </li>
           <li>
             Service, Delivery, installation charges, Quote rejection charges are
@@ -1050,16 +1046,16 @@ function TermsandConditions() {
         <div className="mt-2 fs-5">Disclaimer:</div>
         <ul className="bullet-list ps-4">
           <li>
-            Customer authorizes Next ME technician/Engineer(S) to work on their
+            Customer authorizes GOLD BAZAR technician/Engineer(S) to work on their
             device.
           </li>
           <li>
-            Customer understands that Next ME is not responsible for any data
+            Customer understands that GOLD BAZAR is not responsible for any data
             loss, which occurs as a result of work done on their device.
           </li>
           <li>
             Furthermore, the customer agrees to release, indemnify, and hold
-            harmless, Next ME from liability for any claims or damages of any
+            harmless, GOLD BAZAR from liability for any claims or damages of any
             kind or description that may arise from any system work performed on
             any abandonment of said items.
           </li>

@@ -54,7 +54,7 @@ function Newsletter() {
               >
                 <Checkbox>
                   Yes, I would like to receive special product / service offers
-                  from Next ME.
+                  from GOLD BAZAR.
                 </Checkbox>
               </Form.Item>
               <Form.Item>

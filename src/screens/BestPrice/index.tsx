@@ -27,13 +27,13 @@ function BestPrice() {
         <h4 className="text-center mt-5">Best Price Guarantee (BPG)</h4>
         <h5 className="mt-4">1. WHAT IS BEST PRICE GUARANTEE (BPG) PROGRAM?</h5>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          BPG is a unique program offered by NEXT ME to help you shop
+          BPG is a unique program offered by GOLD BAZAR to help you shop
           confidently while we check the prices on your behalf. If you find a
           lower price at another retailer (excluding web stores) of the power
           retailers, we match the price. And that’s our promise.
         </div>
         <div className="d-flex p-2 mt-1" style={{ textAlign: "justify" }}>
-          Purchase of the product from NEXT ME is mandatory to claim difference
+          Purchase of the product from GOLD BAZAR is mandatory to claim difference
           under BPG. The difference can be claimed within three days from date
           of purchase of the product.
         </div>
@@ -76,7 +76,7 @@ function BestPrice() {
           information. We will revert to you within 24 hours:
         </div>
         <div className="d-flex p-2 mt-1" style={{ textAlign: "justify" }}>
-          Invoice copy for the product you purchased from NEXT ME
+          Invoice copy for the product you purchased from GOLD BAZAR
         </div>
         <div className="d-flex p-2 mt-1" style={{ textAlign: "justify" }}>
           Proof of the lower price at the power retailer (either a quote from
@@ -92,14 +92,14 @@ function BestPrice() {
         <div>
           <ul className="bullet-list">
             <li>
-              <strong>OPTION 1:</strong> EMAIL US: SUPPORT@NEXTME.COM
+              <strong>OPTION 1:</strong> EMAIL US: SUPPORT@GOLDBAZAR.COM
             </li>
             <li>
-              <strong>OPTION 2:</strong> CALL US: 6238780530
+              <strong>OPTION 2:</strong> CALL US: 9876543210
             </li>
             <li>
-              <strong>OPTION 3:</strong> YOU MAY VISIT ANY OF OUR NEXT ME STORES
-              ALONG WITH THE ORIGINAL NEXT ME INVOICE AND PROOF OF THE LOWER
+              <strong>OPTION 3:</strong> YOU MAY VISIT ANY OF OUR GOLD BAZAR STORES
+              ALONG WITH THE ORIGINAL GOLD BAZAR INVOICE AND PROOF OF THE LOWER
               PRICE AT THE COMPETITOR.
             </li>
           </ul>
@@ -113,16 +113,16 @@ function BestPrice() {
           6. WHAT IS THE POLICY ON MATCHING NON-ELECTRONIC GIFT VOUCHERS?
         </h5>
         <div className="d-flex p-2" style={{ textAlign: "justify" }}>
-          Next ME reserves the right to value the Non-Electronic Gift Vouchers
+          GOLD BAZAR reserves the right to value the Non-Electronic Gift Vouchers
           issued at the power retailers under Best Price Guarantee policy.
         </div>
         <div className="d-flex p-2 mt-1" style={{ textAlign: "justify" }}>
-          Next ME reserves the right to modify, restrict, or discontinue the
+          GOLD BAZAR reserves the right to modify, restrict, or discontinue the
           Best Price Guarantee program at any time, for any or no reason, and
           without prior notice or liability to you.
         </div>
         <div className="d-flex p-2 mt-1" style={{ textAlign: "justify" }}>
-          Next ME reserves the right to cancel a previously matched or paid item
+          GOLD BAZAR reserves the right to cancel a previously matched or paid item
           if it is found that a customer has violated or circumvented the Best
           Price Guarantee Terms & Conditions. In the event SDG believes that the
           Best Price Guarantee is being intentionally abused or manipulated, we

@@ -58,7 +58,7 @@ function Careers() {
       <div className="Screen-box">
         <div className="ftscreen-fnt m-2 ">
           <Row className="m-5 text-center">
-            <h3>Join us at Next ME</h3>
+            <h3>Join us at GOLD BAZAR</h3>
             <p className="fs-6">Current Openings</p>
           </Row>
           <Row className="align-items-right">

@@ -25,11 +25,11 @@ const listItems2 = [
     className: "profile-dashboard-txt11",
   },
   {
-    text: "Simply Login with your registered email id or mobile number and password combination used prior to deactivation. Your account data is fully restored. Default settings are applied, and you will be subscribed to receive promotional emails from NextMI.",
+    text: "Simply Login with your registered email id or mobile number and password combination used prior to deactivation. Your account data is fully restored. Default settings are applied, and you will be subscribed to receive promotional emails from Gold Bazar.",
     className: "profile-dashboard-txt12",
   },
   {
-    text: "NextMi retains your account data for you to conveniently start off from where you left if you decide to reactivate your account",
+    text: "Gold Bazar retains your account data for you to conveniently start off from where you left if you decide to reactivate your account",
     className: "profile-dashboard-txt11",
   },
   {
@@ -158,7 +158,7 @@ function DeactivateModal(props: any) {
               </ul>
             ))}
             <div className="profile-dashboard-Box3">
-              How do I reactivate my Nextmi account?
+              How do I reactivate my Gold Bazar account?
             </div>
             {listItems2.map((item) => (
               <div style={{ paddingLeft: "14px" }}>

@@ -60,7 +60,7 @@ const Footer = () => {
                   <li><Link to="/newsletter" className="custom-link">{t("newsletter")}</Link></li>
                   <li><Link to="/blog" className="custom-link">{t("blog")}</Link></li>
                   <li>{t("whatsapp_us")}</li>
-                  <li>6238780530</li>
+                  <li>9876543210</li>
                   <li><Link to="/tell-more" className="custom-link">{t("tell_more")}</Link></li>
                 </ul>
               </div>
@@ -95,7 +95,7 @@ const Footer = () => {
         <Container>
           <div className="final-footer-inner">
             <span className="copyright-txt">
-              COPYRIGHT © 2023 NEXT ME LLC. ALL RIGHTS RESERVED
+              COPYRIGHT © 2023 GOLD BAZAR LLC. ALL RIGHTS RESERVED
             </span>
             <span className="copyright-txt-2">{t("terms_desc")}</span>
           </div>

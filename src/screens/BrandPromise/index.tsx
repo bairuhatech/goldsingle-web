@@ -38,13 +38,13 @@ function BrandPromise() {
           <Col md={2} />
           <Col md={8}>
             <div className="d-flex p-2 mt-5" style={{ textAlign: "justify" }}>
-              For over a decade Next ME has been known as the preferred store to
+              For over a decade GOLD BAZAR has been known as the preferred store to
               find whatever you may want in consumer electronics and appliances.
               Our unmatched range and availability is backed up by our bold
               promise – “If we don’t have it, you get it free”.
             </div>
             <div className="d-flex p-2 mt-1" style={{ textAlign: "justify" }}>
-              Put it simply – if there’s something you can’t find at Next ME,
+              Put it simply – if there’s something you can’t find at GOLD BAZAR,
               we’ll have it for you within 24 hours, else it’s free! We will
               have the product ready at one of our stores or deliver it to your
               home as per your convenience. The Brand Promise covers all
@@ -86,8 +86,7 @@ function BrandPromise() {
                       claim.
                     </li>
                     <li>
-                      This scheme does not apply to products listed on the Next
-                      ME website, discontinued products, products not officially
+                      This scheme does not apply to products listed on the Gold Bazar website, discontinued products, products not officially
                       launched, products not approved by Telecom Regulatory
                       Authority, home delivery products (large TV panels, large
                       home appliances, etc., accessories).
@@ -137,7 +136,7 @@ function BrandPromise() {
                         </li>
                         <li>
                           If the customer is not reachable by delivery agent for
-                          home delivery then Next ME cannot be held responsible
+                          home delivery then GOLD BAZAR cannot be held responsible
                           for not delivering item on time as promised, however a
                           second attempt to deliver would be done on the
                           following working day, failing which the product will
@@ -155,21 +154,21 @@ function BrandPromise() {
                       as per the terms and conditions, is NOT made available to
                       the customer within next day 10pm, then the product will
                       be offered to the customer Free of Cost or in its absence
-                      Next ME’s gift vouchers of equivalent value will be
+                      GOLD BAZAR’s gift vouchers of equivalent value will be
                       provided.
                     </li>
                     <li>
-                      Standard Next ME Exchange, Refund, Repair and Warranty
+                      Standard GOLD BAZAR Exchange, Refund, Repair and Warranty
                       terms and conditions will apply.
                     </li>
                     <li>
-                      This scheme is valid at all Next ME outlets across UAE,
+                      This scheme is valid at all GOLD BAZAR outlets across UAE,
                       all disputes under this scheme will be resolved under the
                       jurisdiction of Dubai Court.
                     </li>
                     <li>
                       By accepting this scheme, the customer agrees to be bound
-                      by the terms and conditions mentioned herein. Next ME
+                      by the terms and conditions mentioned herein. GOLD BAZAR
                       reserves the right to amend the terms and conditions as
                       and when required.
                     </li>
@@ -180,7 +179,7 @@ function BrandPromise() {
             <div className="text-center mt-2" style={{ fontSize: "13px" }}>
               For enquiries on status of product
             </div>
-            <div className="text-center mt-3 fw-bold">Call 6238780530 </div>
+            <div className="text-center mt-3 fw-bold">Call 9876543210 </div>
           </Col>
           <Col md={2} />
         

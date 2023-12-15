@@ -28,20 +28,20 @@ function Faq() {
             <p>
               Yes, you can log on to{" "}
               <a
-                href="https://warranty.nextmiddleeast.com/"
+                href="https://warranty.goldbazar.com/"
                 target="_self"
                 rel="noopener noreferrer"
               >
                 {" "}
-                https://warranty.nextmiddleeast.com/{" "}
+                https://warranty.goldbazar.com/{" "}
               </a>{" "}
               and check the warranty of the products that you purchased from
-              www.nextme.com except marketplace products.
+              www.goldbazar.com except marketplace products.
             </p>
           </li>
           <li key={1}>
             <p>
-              You can only view the warranty of the products sold by Next ME; in
+              You can only view the warranty of the products sold by GOLD BAZAR; in
               case the purchased product is sold by a Marketplace seller, the
               warranty will not show in this application.
             </p>
@@ -51,18 +51,18 @@ function Faq() {
     },
     {
       question:
-        "Can I check the warranty details of products I bought from Next ME Retail stores?",
+        "Can I check the warranty details of products I bought from GOLD BAZAR Retail stores?",
       answer: [
         <p key={0}>
           Yes, you can log on to{" "}
           <a
-            href="https://warranty.nextmiddleeast.com"
+            href="https://warranty.goldbazar.com"
             target="_self"
             rel="noopener noreferrer"
           >
-            https://warranty.nextmiddleeast.com
+            https://warranty.goldbazar.com
           </a>{" "}
-          and check the warranty details of products you bought from Next ME
+          and check the warranty details of products you bought from GOLD BAZAR
           Retail stores as well.
         </p>,
       ],
@@ -100,8 +100,8 @@ function Faq() {
               purchased is incorrect or not shown on the warranty application.
               For any warranty-related issues for carry-in products e.g.
               (Laptop, tablets, Telecom, Small Domestic appliances, etc.) you
-              can always contact the Next ME store Customer Care and for Major
-              Domestic Appliances or big screen TVs, you can call the Next ME
+              can always contact the GOLD BAZAR store Customer Care and for Major
+              Domestic Appliances or big screen TVs, you can call the GOLD BAZAR
               support center at 600502034.
             </p>
           </li>
@@ -109,7 +109,7 @@ function Faq() {
             <p>
               You can always refer to the{" "}
               <a href="/return-policy">
-                Return, Exchange and Warranty – Next ME UAE
+                Return, Exchange and Warranty – GOLD BAZAR UAE
               </a>{" "}
               policy for the warranty terms even if the product is not reflected
               on the application.
@@ -121,7 +121,7 @@ function Faq() {
 
     {
       question:
-        "Do I need to contact the store customer care or Next ME contact center incase the warranty of the purchased product is incorrect or not reflected? ",
+        "Do I need to contact the store customer care or GOLD BAZAR contact center incase the warranty of the purchased product is incorrect or not reflected? ",
       answer: [
         "You don’t need to contact the store customer care or contact center incase the product you purchased is not reflected or is incorrect on the application. The warranty details will be automatically updated with the application update. Incase it still doesn’t reflect then you can call our call center at 600502034. ",
       ],
@@ -130,7 +130,7 @@ function Faq() {
       question:
         "Can I log a warranty claim request for any of my products via this application?",
       answer: [
-        "Yes, for the products like Home Appliances or big-screen TVs you can log an onsite support ticket explaining the issue. For smaller-sized products like Mobiles, tablets, laptops, etc. while you can book a ticket for support however you need to bring the device to the customer care center or service center located in the Next ME stores.",
+        "Yes, for the products like Home Appliances or big-screen TVs you can log an onsite support ticket explaining the issue. For smaller-sized products like Mobiles, tablets, laptops, etc. while you can book a ticket for support however you need to bring the device to the customer care center or service center located in the GOLD BAZAR stores.",
       ],
     },
     {

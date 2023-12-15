@@ -71,7 +71,7 @@ function CheckWarrantystatus() {
                     <strong>Find out more</strong>
                   </a>
                   <p className="pt-3 fs-5">
-                    Applicable warranties will show for products sold by Next ME
+                    Applicable warranties will show for products sold by GOLD BAZAR
                     only. We are coming soon with warranties bought from our
                     Marketplace sellers.
                   </p>
@@ -184,7 +184,7 @@ function CheckWarrantystatus() {
             <div className="row p-md-5 p-0">
               <div className="col-md-4 p-md-4 p-0 m-md-5 m-0 mt-5 mb-5 text-md-start text-center text-black">
                 <h2 className="pt-md-5 display-6 p-2 lh-sm">
-                  Are you a Next ME Customer?
+                  Are you a GOLD BAZAR Customer?
                 </h2>
                 <h2 className="pt-1 display-6 lh-sm mt-3">
                   Want to know the warranty status of your product?
@@ -206,7 +206,7 @@ function CheckWarrantystatus() {
                 <div className="col-md-4 p-md-4 p-0 m-md-5 m-0 mt-5 mb-5 text-md-start text-center">
                   <h5 className="pt-1 pt-md-5 lh-sm">
                     You will get a single screen with 360 degrees view where all
-                    your Next me purchases can be listed along with the
+                    your Gold Bazar purchases can be listed along with the
                     in-repair, in-warranty and out-of-warranty products.
                   </h5>
                   <h4 className="pt-1 display-6 lh-sm mt-3">
@@ -240,13 +240,12 @@ function CheckWarrantystatus() {
                     the Warranty Application?
                   </h6>
                   <p className="fs-6">
-                    Yes, you can log on to https://nextmiddleeast.com/warranty
+                    Yes, you can log on to https://goldbazar.com/warranty
                     and check the warranty of the products that you purchased
-                    from www.NextMiddleEast.com
+                    from www.goldbazar.com
                   </p>
                   <p className="pt-1 fw-bolder fs-5 lh-sm mt-3">
-                    You can only view the warranty of the products sold by Next
-                    ME; incase the purchased product is sold by a Marketplace
+                    You can only view the warranty of the products sold by Gold Bazar; incase the purchased product is sold by a Marketplace
                     seller the warranty will not show in this application.
                   </p>
                   <Button

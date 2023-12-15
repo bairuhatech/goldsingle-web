@@ -123,7 +123,7 @@ function StoreRedirectScreen() {
                     During the period of evaluation of your data, your store
                     status will be pending.
                     <br />
-                    for more details contact <b>NextMe</b> customercare.
+                    for more details contact <b>Gold Bazar</b> customercare.
                   </div>
                 }
                 type="info"

@@ -32,7 +32,7 @@ function NewProductsOverView(props: any) {
       width: 80,
       render: (_text: any, _record: any) => (
         <div style={{ display: "flex", justifyContent: "space-around" }}>
-          <AiOutlineEye cursor="pointer" size={20} color="#a10244" />
+          <AiOutlineEye cursor="pointer" size={20} color="#DA9100" />
         </div>
       ),
     },

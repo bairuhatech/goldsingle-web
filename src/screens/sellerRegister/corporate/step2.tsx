@@ -129,7 +129,7 @@ function Step2({ businessType, formData, moveToNextStep, goBack }: any) {
 
               <div className="input-form-label">
                 Are you Manufacture or brand owner (or agent or representiative
-                of the brand) for the products you want to sell on NextME
+                of the brand) for the products you want to sell on Gold Bazar
               </div>
               <Form.Item name="manufacture" className="mb-0">
                 <Form.Item name="manufacture">
@@ -154,7 +154,7 @@ function Step2({ businessType, formData, moveToNextStep, goBack }: any) {
                 ]}
               >
                 <Checkbox>
-                  By continuing, I agree to NextMe’s{" "}
+                  By continuing, I agree to Gold Bazar’s{" "}
                   <a href="/terms-and-conditions" target="_blank">
                     Terms of Use
                   </a>{" "}
@@ -188,7 +188,7 @@ function Step2({ businessType, formData, moveToNextStep, goBack }: any) {
               <div className="sellerRegister-text1">
                 Your first sales could be right around the corner, but first it
                 can help to understand the essentials. Here are a few useful
-                steps and things to know before selling on NextMe.
+                steps and things to know before selling on Gold Bazar.
               </div>
               <br />
 
@@ -203,10 +203,10 @@ function Step2({ businessType, formData, moveToNextStep, goBack }: any) {
                 <br />
                 <b>Business Type:</b> Are you Manufacture or brand owner (or
                 agent or representiative of the brand) for the products you want
-                to sell on NextME
+                to sell on Gold Bazar
                 <br /> <br />
                 <b>TRN Number :</b> You must complete identity verification to
-                become successfully registered as a seller on the NextMe
+                become successfully registered as a seller on the Gold Bazar
                 Australia store. Follow this step-by-step guide and the tips on
                 each page to help prevent delays in your registration. <br />
                 <br />
@@ -215,7 +215,7 @@ function Step2({ businessType, formData, moveToNextStep, goBack }: any) {
                 <br />
                 <b>Own Products :</b> Are you Manufacture or brand owner (or
                 agent or representiative of the brand) for the products you want
-                to sell on NextME
+                to sell on Gold Bazar
                 <br />
               </div>
             </div>

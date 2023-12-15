@@ -26,22 +26,22 @@ function SellerRegister() {
   const [isLoginModalVisible, setIsLoginModalVisible] = useState(false);
   const sellerFeatures = [
     {
-      icon: <FaHandshakeSimple size={30} color="#a10244" />,
+      icon: <FaHandshakeSimple size={30} color="#DA9100" />,
       title: "0% Commission Fee",
       description:
-        "Suppliers selling on NextMe keep 100% of their profit by not paying any commission",
+        "Suppliers selling on Gold Bazar keep 100% of their profit by not paying any commission",
     },
     {
-      icon: <IoDocumentText size={30} color="#a10244" />,
+      icon: <IoDocumentText size={30} color="#DA9100" />,
       title: "0 Penalty Charges",
       description:
         "Sell online without the fear of order cancellation charges with 0 Penalty for late dispatch or order cancellations.",
     },
     {
-      icon: <GiCrystalGrowth size={30} color="#a10244" />,
+      icon: <GiCrystalGrowth size={30} color="#DA9100" />,
       title: "Growth for Every Supplier",
       description:
-        "From small to large and unbranded to branded, and now open for Sellers who don't have a Regular GSTIN too, NextMe fuels growth for all suppliers.",
+        "From small to large and unbranded to branded, and now open for Sellers who don't have a Regular GSTIN too, Gold Bazar fuels growth for all suppliers.",
     },
   ];
   return (
@@ -52,7 +52,7 @@ function SellerRegister() {
           <Col sm={6} xs={12}>
             <br />
             <h4 className="sellerRegister-Heading">
-              Begin your selling journey on NextME
+              Begin your selling journey on Gold Bazar
             </h4>
             <br />
             <Row>
@@ -76,11 +76,11 @@ function SellerRegister() {
             <br />
             <div>
               <p className="sellerRegister-text2">
-                <FaLongArrowAltRight color="#a10244" size={20} />
+                <FaLongArrowAltRight color="#DA9100" size={20} />
                 &nbsp; Individual
               </p>
               <p className="sellerRegister-text1">
-                As an individual user on NextME, you gain access to a host of
+                As an individual user on Gold Bazar, you gain access to a host of
                 features designed to enhance your waitlisting experience.
                 Receive instant updates on your wait time, allowing you to plan
                 your activities with precision. The app ensures that you make
@@ -103,7 +103,7 @@ function SellerRegister() {
                 onClick={() => navigation("/slr/individual_info")}
               >
                 More Info &nbsp;
-                <BsFillPatchQuestionFill color="#a10244" size={16} />
+                <BsFillPatchQuestionFill color="#DA9100" size={16} />
               </p>
             </div>
           </Col>
@@ -122,7 +122,7 @@ function SellerRegister() {
               <div className="sellerRegister-banner-item">
                 <FcConferenceCall size={50} />
                 <span className="sellerRegister-text2">
-                  Thousands of NextME customers
+                  Thousands of Gold Bazar customers
                 </span>
               </div>
               <br />
@@ -181,12 +181,12 @@ function SellerRegister() {
           <Col md={6}>
             <div className="sellerRegister-box4">
               <h4 className="sellerRegister-subHeading">
-                Why Suppliers Love NextMe
+                Why Suppliers Love Gold Bazar
               </h4>
               <p className="sellerRegister-text1">
-                All the benefits that come with selling on NextMe are designed
+                All the benefits that come with selling on Gold Bazar are designed
                 to help you sell more, and make it easier to grow your
-                business.Selling on NextMe opens up a world of opportunities for
+                business.Selling on Gold Bazar opens up a world of opportunities for
                 businesses, providing a platform that goes beyond traditional
                 selling channels.
               </p>

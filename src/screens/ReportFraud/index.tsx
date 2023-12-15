@@ -27,8 +27,7 @@ function ReportFraud() {
                       Are you a victim of credit card fraud?
                     </h1>
                     <p className="py-3 fs-5 mb-2">
-                      Did you notice your credit/debit card being used at Next
-                      ME without your knowledge?
+                      Did you notice your credit/debit card being used at Gold Bazar without your knowledge?
                     </p>
                     <a
                       className="btn btn-light text-capitalize rounded-pill ps-5 pe-5 scrolling-link mb-2"
@@ -49,10 +48,9 @@ function ReportFraud() {
                 <a href="">Or report an issue with your online transaction</a>
               </p>
               <p>
-                If you think your credit/debit card has been used twice on Next
-                ME Website OR if you placed an order but you did not receive an
+                If you think your credit/debit card has been used twice on Gold Bazar Website OR if you placed an order but you did not receive an
                 acknowledgement from us, use this form to inform the incident to
-                Next ME.
+                GOLD BAZAR.
               </p>
               <p className="pt-2 fs-5">
                 <a href="">Click here</a>
@@ -71,7 +69,7 @@ function ReportFraud() {
                 Are you a victim of credit card fraud?
               </h1>
               <p className="pt-3 fs-5 mb-5">
-                Did you notice your credit/debit card being used at Next ME
+                Did you notice your credit/debit card being used at GOLD BAZAR
                 without your knowledge?
               </p>
               <a

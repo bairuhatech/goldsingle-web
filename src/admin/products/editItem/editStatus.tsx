@@ -19,13 +19,13 @@ function UpdateProductStatus(props: any) {
               <b>What does Active Means?</b>
               <br />
               If the product is in Active state it will be available to the
-              users and everyone who visits Next me can see it. A user can add
+              users and everyone who visits Gold Bazar can see it. A user can add
               the Item to his Cart and also Order the product.
               <br />
               <b>What does Inactive means</b>
               <br />
               If A Product is Inactive it means the Product won't be Listed in
-              NextMe No users can see the product. hence no one can buy or add
+              Gold Bazar No users can see the product. hence no one can buy or add
               it to cart. An inactive Product can only be seen by the respective
               store owners. If you want you can reactivate the product. <br />
               <b>NB: </b>Activating an Inactivating the product will also

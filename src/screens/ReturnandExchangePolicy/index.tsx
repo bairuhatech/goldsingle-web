@@ -17,17 +17,16 @@ function ReturnandExchangePolicy() {
         <PageHeader text=" Return, Exchange and Warranty" />
         <h5 className="my-4">RETURN AND EXCHANGE POLICY (Store and Online)</h5>
         <div className="py-2">
-          At Next ME your satisfaction is a guarantee. If you are not satisfied
+          At GOLD BAZAR your satisfaction is a guarantee. If you are not satisfied
           with your purchase, we will take back sold product/s within seven (7)
           days from the date of collection or Home Delivery of the product/s.
           The return & exchange is subject to the following terms and
           conditions.
         </div>
         <div className="py-2">
-          For Return & Exchange of product/s, Customer to visit any nearest Next
-          ME Store in UAE, call Next ME Helpline Number{" "}
-          <strong>(6238780530)</strong> or e-mail us on{" "}
-          <strong>support@nextmiddleeast.com </strong> for assistance. For
+          For Return & Exchange of product/s, Customer to visit any nearest Gold Bazar Store in UAE, call GOLD BAZAR Helpline Number{" "}
+          <strong>(9876543210)</strong> or e-mail us on{" "}
+          <strong>support@goldbazar.com </strong> for assistance. For
           Market Place product/s, please refer to the section – Return and
           Exchange Policy – Market Place.
         </div>
@@ -96,7 +95,7 @@ function ReturnandExchangePolicy() {
           </ul>
           <li>
             If the product returned, has any data or information stored in the
-            memory or storage device, Next ME will not be responsible for the
+            memory or storage device, GOLD BAZAR will not be responsible for the
             transfer of such data or information to another product given to the
             customer as an exchange, or for the loss of any data or information
             still residing on the returned product.
@@ -105,7 +104,7 @@ function ReturnandExchangePolicy() {
             Product/s purchased through credit/debit card will be refunded ONLY
             to the same credit/debit card used for the transaction. A refund for
             product/s purchased through any kind of Gift Cards, Points, etc.
-            will be refunded through Next ME Gift Card.
+            will be refunded through GOLD BAZAR Gift Card.
           </li>
           <li>
             Service, delivery, and installation charges are non-refundable once
@@ -130,10 +129,9 @@ function ReturnandExchangePolicy() {
         </ul>
         <h5 className="my-4">RETURN AND EXCHANGE POLICY (Marketplace)</h5>
         <div className="py-2">
-          For Exchange or Return, of Marketplace Product/s Customer to call Next
-          ME Helpline Number <strong>(6238780530)</strong> or e-mail us on{" "}
-          <strong>support@nextmiddleeast.com </strong> for assistance.
-          Marketplace product/s will not be exchanged or returned at the Next ME
+          For Exchange or Return, of Marketplace Product/s Customer to call Gold Bazar Helpline Number <strong>(9876543210)</strong> or e-mail us on{" "}
+          <strong>support@goldbazar.com </strong> for assistance.
+          Marketplace product/s will not be exchanged or returned at the GOLD BAZAR
           Stores. The return and exchange are subject to the following terms and
           conditions:
         </div>
@@ -144,7 +142,7 @@ function ReturnandExchangePolicy() {
             Care, Hygiene product/s, Online activation card, Customized/special
             order product/s (e.g. assembled/tailormade furniture), cut
             cable/wire are not applicable for return or exchange if packaging if
-            opened or used. Anomalies if any can be reported through Next ME
+            opened or used. Anomalies if any can be reported through GOLD BAZAR
             compliant channels mentioned above.
           </li>
           <li>
@@ -197,7 +195,7 @@ function ReturnandExchangePolicy() {
           </li>
           <li>
             Primary responsibility for warranty service rests with the brand
-            owner/supplier or Marketplace Seller and nextmiddleeast.com is a
+            owner/supplier or Marketplace Seller and goldbazar.com is a
             facilitator only.
           </li>
           <li>
@@ -214,9 +212,9 @@ function ReturnandExchangePolicy() {
         <h5 className="mt-5">CHECK WARRANTY STATUS</h5>
         <div className="py-2 pt-0">
           To check the status of the warranty of products you purchased from
-          Next ME, visit{" "}
-          <a href="https://uae.nextmiddleeast.com/warranty/">
-            https://uae.nextmiddleeast.com/warranty/
+          GOLD BAZAR, visit{" "}
+          <a href="https://www.goldbazar.com/warranty/">
+            https://www.goldbazar.com/warranty/
           </a>
         </div>
       </div>

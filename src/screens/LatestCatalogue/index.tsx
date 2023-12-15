@@ -17,10 +17,10 @@ function LatestCatelogue() {
       </div>
       <div className="ftscreen-fnt m-2">
         <div className="d-inline-block text-truncate mw-100">
-          <PageHeader text="Next ME Catalogue – Find best offers on Smartphones, Laptops, Tablets, Televisions, Cameras, Gaming, Home Appliances and more in Dubai, UAE"></PageHeader>
+          <PageHeader text="GOLD BAZAR Catalogue – Find best offers on Smartphones, Laptops, Tablets, Televisions, Cameras, Gaming, Home Appliances and more in Dubai, UAE"></PageHeader>
         </div>
-        <div className="fs-4">Latest Offer Catalogue by Next ME UAE</div>
-        <div className="py-2">On products sold by Next ME Only</div>
+        <div className="fs-4">Latest Offer Catalogue by GOLD BAZAR UAE</div>
+        <div className="py-2">On products sold by GOLD BAZAR Only</div>
         <Row className="pt-3 jusify-content-center">
           <Col md={6}>
             <h3 className="text-center">Mega Home Fest</h3>

@@ -11,7 +11,7 @@ const DashboardProduct = () => {
     {
       title: "TOTAL USERS",
       amount: "$ ",
-      icon: <FaCircleUser size={40} color="#a10244" />,
+      icon: <FaCircleUser size={40} color="#DA9100" />,
       month: (
         <>
           <FaArrowUpLong size={15} color="grey" />

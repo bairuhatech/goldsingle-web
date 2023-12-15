@@ -84,7 +84,7 @@ function DataTable(props: any) {
           <BiSolidEditAlt
             cursor="pointer"
             size={20}
-            color="#a10244"
+            color="#DA9100"
             onClick={() => {
               // props?.changeType();
               // props?.getSelectedItem(_record);

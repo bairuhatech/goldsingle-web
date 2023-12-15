@@ -51,7 +51,7 @@ function UserDataTable(props: any) {
           <AiOutlineEye
             cursor="pointer"
             size={25}
-            color="#a10244"
+            color="#DA9100"
             onClick={() => props?.viewDetailsPage(_record)}
           />
         </div>

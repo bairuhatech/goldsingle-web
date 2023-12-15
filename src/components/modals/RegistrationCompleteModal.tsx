@@ -24,7 +24,7 @@ const RegistrationCompleteModal: React.FC<RegistrationCompleteModalProps> = ({
         </Button>
       ]}
     >
-      Congratulations! You have become a NextME seller.
+      Congratulations! You have become a Gold Bazar seller.
     </Modal>
   );
 };

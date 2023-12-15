@@ -152,11 +152,11 @@ function Step1({ moveToNextStep, formData }: any) {
           </Col>
           <Col md={8}>
             <div className="sellerRegister-box2">
-              <h4 className="sellerRegister-subHeading">Why sell on NextMe?</h4>
+              <h4 className="sellerRegister-subHeading">Why sell on Gold Bazar?</h4>
               <div className="sellerRegister-text1">
                 Customers love having a trusted destination where they can
                 purchase a wide variety of goods - which is what makes sellers
-                like you so important. As a Nextme seller, you take part in
+                like you so important. As a Gold Bazar seller, you take part in
                 offering those shoppers better selection, better prices, and a
                 top-notch customer experience.
               </div>
@@ -204,7 +204,7 @@ function Step1({ moveToNextStep, formData }: any) {
                     Business on the go
                   </div>
                   <div className="sellerRegister-text1">
-                    Download our Nextme Seller App to manage your business
+                    Download our Gold Bazar Seller App to manage your business
                     anywhere, anytime
                   </div>
                 </Col>

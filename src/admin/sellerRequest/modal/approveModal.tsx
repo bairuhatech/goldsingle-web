@@ -240,7 +240,7 @@ const ApproveModal = (props: any) => {
 
         <div className="input-form-label">
           Is seller Manufacture or brand owner (or agent or representiative of
-          the brand) for the products he/she want to sell on NextME
+          the brand) for the products he/she want to sell on Gold Bazar
         </div>
         <Form.Item name="manufacture">
           <Radio.Group size="large">

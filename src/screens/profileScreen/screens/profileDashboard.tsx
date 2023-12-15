@@ -64,11 +64,11 @@ const ProfileDashboard = () => {
       className: "profile-dashboard-txt11",
     },
     {
-      text: "Simply Login with your registered email id or mobile number and password combination used prior to deactivation. Your account data is fully restored. Default settings are applied, and you will be subscribed to receive promotional emails from NextMI.",
+      text: "Simply Login with your registered email id or mobile number and password combination used prior to deactivation. Your account data is fully restored. Default settings are applied, and you will be subscribed to receive promotional emails from Gold Bazar.",
       className: "profile-dashboard-txt12",
     },
     {
-      text: "NextMi retains your account data for you to conveniently start off from where you left if you decide to reactivate your account",
+      text: "Gold Bazar retains your account data for you to conveniently start off from where you left if you decide to reactivate your account",
       className: "profile-dashboard-txt11",
     },
     {
@@ -286,7 +286,7 @@ const ProfileDashboard = () => {
               email address (or mobile number).
             </p>
             <p className="profile-dashboard-txt7">
-              When will my NextMe account be updated with the new email address
+              When will my Gold Bazar account be updated with the new email address
               (or mobile number)?
             </p>
             <p className="profile-dashboard-txt8">
@@ -294,7 +294,7 @@ const ProfileDashboard = () => {
               your email (or mobile) and save the changes.
             </p>
             <p className="profile-dashboard-txt7">
-              What happens to my existing NextMe account when I update my email
+              What happens to my existing Gold Bazar account when I update my email
               address (or mobile number)?
             </p>
             <p className="profile-dashboard-txt8">
@@ -308,7 +308,7 @@ const ProfileDashboard = () => {
               address?
             </p>
             <p className="profile-dashboard-txt8">
-              NextMe has a 'single sign-on' policy. Any changes will reflect in
+            Gold Bazar has a 'single sign-on' policy. Any changes will reflect in
               your Seller account also.
             </p>
             <br />

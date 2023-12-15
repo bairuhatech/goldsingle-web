@@ -20,6 +20,7 @@ import categories from "../../admin/categories";
 import SEO from "../../components/seo";
 import React from "react";
 import { message } from "antd";
+import ContentTwo from "./components/ContentTwo";
 
 function HomeSCreen() {
   const User = useSelector((state: any) => state.User.user);
@@ -112,14 +113,19 @@ function HomeSCreen() {
   return (
     <div className="Screen-box">
       {contextHolder}
-      <SEO title="NEXT ME" description="NEXT ME! The leading powerhouse retailer of UAE" />
+      <SEO
+        title="GOLD BAZAR"
+        description="GOLD BAZAR! The leading powerhouse retailer of UAE"
+      />
       {isLoading ? (
         <Loader />
       ) : (
         <>
+          <ContentTwo />
           <Banners data={Banner} />
           <SubCategoryList data={subCategories} />
-          <Offers data={[1]} />
+
+          {/* <Offers data={[1]} /> */}
           {loading ? (
             <Loading />
           ) : error ? (

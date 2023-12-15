@@ -264,12 +264,12 @@ function TellUsMore() {
                             {
                               required: true,
                               message:
-                                "Please enter your feedback about Next ME website",
+                                "Please enter your feedback about GOLD BAZAR website",
                             },
                           ]}
                         >
                           <Input.TextArea
-                            placeholder="Your feedback about Next ME website"
+                            placeholder="Your feedback about GOLD BAZAR website"
                             rows={4}
                           />
                         </Form.Item>
@@ -288,7 +288,7 @@ function TellUsMore() {
                           ]}
                         >
                           <Checkbox>
-                            By submitting the form I agree to Next ME’s
+                            By submitting the form I agree to GOLD BAZAR’s
                             standard <a href="/terms-and-conditions" target="_blank">terms and conditions.</a> 
                           </Checkbox>
                         </Form.Item>

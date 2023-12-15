@@ -78,7 +78,7 @@ const ProfileOrders = () => {
                     onClick={() => navigate(`/profile/orders/${item?.id}`)}
                     style={{ cursor: "pointer" }}
                   >
-                    <AiOutlineEye cursor="pointer" size={25} color="#a10244" />
+                    <AiOutlineEye cursor="pointer" size={25} color="#DA9100" />
                   </div>,
                 ]}
               >
@@ -129,7 +129,7 @@ const ProfileOrders = () => {
           <NoData
             icon={<FaBoxOpen size={70} color="#e6e6e6" />}
             header="No Orders Yet!!"
-            text1={`You have no orders. Please start shopping at Next ME and place orders`}
+            text1={`You have no orders. Please start shopping at GOLD BAZAR and place orders`}
             button={"START SHOPPING NOW"}
             onclick={()=>navigate('/')}
           />

@@ -42,6 +42,6 @@ export default NoData;
 // <NoData
 //   icon={<FaBoxOpen size={70} color="#e6e6e6" />}
 //   header="No Orders Found"
-//   text1={`You have no orders. Please start shopping at Next ME and place orders`}
+//   text1={`You have no orders. Please start shopping at GOLD BAZAR and place orders`}
 //   button={"START SHOPPING NOW"}
 // />

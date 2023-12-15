@@ -81,7 +81,7 @@ const StatesTable = (props: any) => {
             cancelText="No"
             onConfirm={() => itemDeleteHandler(record)}
           >
-            <AiTwotoneDelete cursor="pointer" size={20} color="#a10244" />
+            <AiTwotoneDelete cursor="pointer" size={20} color="#DA9100" />
           </Popconfirm>
         </div>
       ),

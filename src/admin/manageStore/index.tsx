@@ -279,7 +279,7 @@ function ManageStore() {
                   <div className="fw-bold ">
                     Are you Manufacture or brand owner (or agent or
                     representiative of the brand) for the products you want to
-                    sell on NextME
+                    sell on Gold Bazar
                   </div>
                   <Form.Item name="manufacture">
                     <Radio.Group>

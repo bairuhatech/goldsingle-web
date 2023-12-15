@@ -57,7 +57,7 @@ function CateogreyList() {
   return (
     <div className={`Header-deskCateogrey ${!show ? "d-none" : ""}`}>
       {Auth.auth ? (
-        (User?.data?.type === "seller" && Settings.type == "multi") ||
+        (User?.data?.type === "seller" && Settings?.type == "multi") ||
         User?.data?.type === "admin" ? (
           <div className="Header-deskCatItem2" onClick={() => OpenLink()}>
             <div style={{ marginRight: 5, marginBottom: 5 }}>

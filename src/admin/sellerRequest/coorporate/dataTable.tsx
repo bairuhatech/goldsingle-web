@@ -45,7 +45,7 @@ function DataTable(props: any) {
           style={{ display: "flex", justifyContent: "space-around" }}
           onClick={() => props?.viewDetailsPage(_record)}
         >
-          <AiOutlineEye cursor="pointer" size={25} color="#a10244" />
+          <AiOutlineEye cursor="pointer" size={25} color="#DA9100" />
         </div>
       ),
     },
