@@ -80,12 +80,12 @@ function DashBoardDataTable() {
           style={{ display: "flex", justifyContent: "space-around" }}
           onClick={() => viewDetailsPage(_record)}
         >
-          <AiOutlineEye cursor="pointer" size={25} color="#DA9100" />
+          <AiOutlineEye cursor="pointer" size={25} color="#B95C50" />
         </div>
       ),
     },
   ];
-  
+
   return (
     <>
       <div className="dashBoardDataTable-Box1">

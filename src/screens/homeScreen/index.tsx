@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState, useMemo } from "react";
-import { useNavigate, useSearchParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import "./styles.scss";
 
@@ -9,18 +8,16 @@ import { GET } from "../../utils/apiCalls";
 
 import Loader from "./components/laoder";
 import Banners from "./components/banners";
-import Offers from "./components/offers";
 import PopularItems from "./components/popularItems";
 import useFetch from "../../shared/hook/fetchData";
 import Loading from "../../components/loading";
 import { storeCart } from "../../redux/slices/cartSlice";
 import SubCategoryList from "./components/subCategoryList";
 import { storeSettings } from "../../redux/slices/settingsSlice";
-import categories from "../../admin/categories";
 import SEO from "../../components/seo";
 import React from "react";
 import { message } from "antd";
-import ContentTwo from "./components/ContentTwo";
+import LiveRates from "./components/liveRates";
 
 function HomeSCreen() {
   const User = useSelector((state: any) => state.User.user);
@@ -36,6 +33,7 @@ function HomeSCreen() {
     isLoading: loading,
     error,
   } = useFetch(API.PRODUCTS, true, 30);
+
   useEffect(() => {
     if (!isMounted.current) {
       isMounted.current = true;
@@ -43,7 +41,6 @@ function HomeSCreen() {
       loadCartItems();
       getBanners();
       getSettings();
-      //here we need to call cart itms and save it to redux
     }
   }, []);
 
@@ -98,6 +95,7 @@ function HomeSCreen() {
       }
     } catch (err) {}
   };
+
   const getSettings = async () => {
     const url = API.SETTINGS;
     try {
@@ -107,9 +105,11 @@ function HomeSCreen() {
       }
     } catch (err) {}
   };
+
   useMemo(() => {
     getAllSubcategories();
   }, [Category]);
+
   return (
     <div className="Screen-box">
       {contextHolder}
@@ -121,7 +121,9 @@ function HomeSCreen() {
         <Loader />
       ) : (
         <>
-          <ContentTwo />
+          <br />
+          <LiveRates />
+          <br />
           <Banners data={Banner} />
           <SubCategoryList data={subCategories} />
 

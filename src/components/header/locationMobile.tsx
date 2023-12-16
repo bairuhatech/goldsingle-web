@@ -14,7 +14,7 @@ const LocationMobile = () => {
   return (
     <div className="LocationMobile-Box1">
       <div className="LocationMobile-Txt1" onClick={() => toggleLocation(true)}>
-        <div style={{ color: "#DA9100" }}>
+        <div style={{ color: "#B95C50" }}>
           Delivery to Dubai &nbsp;
           <LiaGreaterThanSolid size={12} color="grey" />
         </div>

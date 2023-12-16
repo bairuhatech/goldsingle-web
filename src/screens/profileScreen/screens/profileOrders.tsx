@@ -78,7 +78,7 @@ const ProfileOrders = () => {
                     onClick={() => navigate(`/profile/orders/${item?.id}`)}
                     style={{ cursor: "pointer" }}
                   >
-                    <AiOutlineEye cursor="pointer" size={25} color="#DA9100" />
+                    <AiOutlineEye cursor="pointer" size={25} color="#B95C50" />
                   </div>,
                 ]}
               >
@@ -131,7 +131,7 @@ const ProfileOrders = () => {
             header="No Orders Yet!!"
             text1={`You have no orders. Please start shopping at GOLD BAZAR and place orders`}
             button={"START SHOPPING NOW"}
-            onclick={()=>navigate('/')}
+            onclick={() => navigate("/")}
           />
         )}
         <div className="d-flex justify-content-end mt-3">

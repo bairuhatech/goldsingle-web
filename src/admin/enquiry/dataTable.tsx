@@ -42,7 +42,7 @@ function DataTableEnquiry(props: any) {
             }}
             onClick={showModal}
           >
-            <AiOutlineEye cursor="pointer" size={25} color="#DA9100" />
+            <AiOutlineEye cursor="pointer" size={25} color="#B95C50" />
           </div>
         );
       },

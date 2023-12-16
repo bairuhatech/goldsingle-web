@@ -70,7 +70,7 @@ const ReviewTab = () => {
                   }}
                 >
                   <AiOutlineDelete
-                    color="#DA9100"
+                    color="#B95C50"
                     style={{ cursor: "pointer" }}
                   />
                 </Popconfirm>

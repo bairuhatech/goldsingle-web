@@ -64,7 +64,7 @@ function DataTable(props: any) {
           <BiSolidEditAlt
             cursor="pointer"
             size={25}
-            color="#DA9100"
+            color="#B95C50"
             onClick={() => {
               props?.openModal();
               props?.changeType();
@@ -80,7 +80,7 @@ function DataTable(props: any) {
             onConfirm={() => itemDeleteHandler(_record)}
           >
             <Button type="link">
-              <AiTwotoneDelete cursor="pointer" size={25} color="#DA9100" />
+              <AiTwotoneDelete cursor="pointer" size={25} color="#B95C50" />
             </Button>
           </Popconfirm>
         </div>

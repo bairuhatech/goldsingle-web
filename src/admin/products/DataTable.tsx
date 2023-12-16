@@ -67,11 +67,17 @@ function DataTable(props: any) {
       width: 100,
       render: (item: boolean) =>
         item == true ? (
-          <Tag color="success" bordered={false}>Active</Tag>
+          <Tag color="success" bordered={false}>
+            Active
+          </Tag>
         ) : item == false ? (
-          <Tag color="warning" bordered={false}>Inactive</Tag>
+          <Tag color="warning" bordered={false}>
+            Inactive
+          </Tag>
         ) : (
-          <Tag color="success" bordered={false}>Unknown</Tag>
+          <Tag color="success" bordered={false}>
+            Unknown
+          </Tag>
         ),
     },
 
@@ -84,7 +90,7 @@ function DataTable(props: any) {
           <BiSolidEditAlt
             cursor="pointer"
             size={20}
-            color="#DA9100"
+            color="#B95C50"
             onClick={() => {
               // props?.changeType();
               // props?.getSelectedItem(_record);

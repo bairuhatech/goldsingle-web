@@ -61,8 +61,14 @@
   width: 100%;
   width: 100%;
 }
+.Header-desklogoBox {
+  display: flex;
+  align-items: center;
+  height: 74px;
+}
 .Header-deskLogo {
-  height: 60px;
+  height: 50px;
+  margin-left: 20px;
   object-fit: contain;
   cursor: pointer;
 }
@@ -135,7 +141,6 @@
 .Header-deskCateogrey {
   height: 40px;
   width: 100%;
-  margin-top: -6px;
   padding: 0px 66px 6px;
   box-shadow: 0 3px 2px 0px rgba(0, 0, 0, 0.032);
   transition: 0.3s;
@@ -187,8 +192,14 @@
   flex-direction: row;
   align-items: center;
 }
+.Header-mobLogoBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 54px;
+}
 .Header-mobLogo {
-  height: 50px;
+  height: 35px;
   object-fit: cover;
   cursor: pointer;
 }

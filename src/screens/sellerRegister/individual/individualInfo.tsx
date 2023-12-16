@@ -8,19 +8,19 @@ const IndividualInfo = () => {
   const items = [
     {
       text: "Elevate your waitlisting experience with Gold Bazar, designed for individuals seeking seamless and efficient service.",
-      color: "#DA9100",
+      color: "#B95C50",
     },
     {
       text: "Elevate your waitlisting experience with Gold Bazar, designed for individuals seeking seamless and efficient service.",
-      color: "#DA9100",
+      color: "#B95C50",
     },
     {
       text: "Gold Bazar simplifies the waitlist process for coffee shops, restaurants, and services, ensuring a stress-free, organized approach to your daily schedule.",
-      color: "#DA9100",
+      color: "#B95C50",
     },
     {
       text: "Join the Gold Bazar community and embrace a lifestyle enhancement tool that puts you in control, turning your wait times into opportunities for productivity and relaxation.",
-      color: "#DA9100",
+      color: "#B95C50",
     },
   ];
 

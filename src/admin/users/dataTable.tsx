@@ -40,7 +40,9 @@ function UserDataTable(props: any) {
       title: "Joined Date",
       dataIndex: "createdAt",
       key: "createdAt",
-      render: (item: string) => <span>{`${moment(item).format("DD/MM/YYYY")}`}</span>,
+      render: (item: string) => (
+        <span>{`${moment(item).format("DD/MM/YYYY")}`}</span>
+      ),
     },
     {
       title: "View",
@@ -51,7 +53,7 @@ function UserDataTable(props: any) {
           <AiOutlineEye
             cursor="pointer"
             size={25}
-            color="#DA9100"
+            color="#B95C50"
             onClick={() => props?.viewDetailsPage(_record)}
           />
         </div>

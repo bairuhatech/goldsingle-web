@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { getOrderStatus } from "../../shared/helpers/getOrderStatus";
 function DataTable(props: any) {
-  const navigate=useNavigate()
+  const navigate = useNavigate();
   const Settings = useSelector((state: any) => state.Settings.Settings);
   const columns = [
     {
@@ -21,22 +21,27 @@ function DataTable(props: any) {
       render: (item: any) => <span>{item?.name}</span>,
     },
     {
-      title: "OrderDate",//
+      title: "OrderDate", //
       dataIndex: "createdAt",
       key: "createdAt",
       render: (item: any) => <span>{moment(item).format("MMM Do YYYY")}</span>,
     },
     {
-      title: "Total",//
+      title: "Total", //
       dataIndex: "total",
       key: "total",
-      render:(item:any)=><span>{Settings.currency}{item}</span>
+      render: (item: any) => (
+        <span>
+          {Settings.currency}
+          {item}
+        </span>
+      ),
     },
     {
-      title: "Status",//
+      title: "Status", //
       dataIndex: "status",
       key: "status",
-      render:(item:string)=><span>{getOrderStatus(item)}</span>
+      render: (item: string) => <span>{getOrderStatus(item)}</span>,
     },
     {
       title: "Actions",
@@ -47,12 +52,11 @@ function DataTable(props: any) {
           <AiOutlineEye
             cursor="pointer"
             size={20}
-            color="#DA9100"
+            color="#B95C50"
             onClick={() => {
-              navigate(`/auth/Orders/${_record?.id}`)
+              navigate(`/auth/Orders/${_record?.id}`);
             }}
           />
-          
         </div>
       ),
     },

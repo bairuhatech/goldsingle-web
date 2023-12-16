@@ -84,7 +84,7 @@ function BusinessTypeTable(props: any) {
             cancelText="No"
             onConfirm={() => itemDeleteHandler(record)}
           >
-            <AiTwotoneDelete cursor="pointer" size={20} color="#DA9100" />
+            <AiTwotoneDelete cursor="pointer" size={20} color="#B95C50" />
           </Popconfirm>
         </div>
       ),

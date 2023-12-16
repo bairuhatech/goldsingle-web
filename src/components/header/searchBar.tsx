@@ -148,7 +148,7 @@ function SearchBar() {
               style={{ width: popoverWidth - 30 }}
             >
               <div onClick={() => setVoiceSearch(true)}>
-                <BsMicFill size={20} color="#DA9100" />
+                <BsMicFill size={20} color="#B95C50" />
               </div>
               <div onClick={() => setOpen(false)}>
                 <AiOutlineClose size={26} />
@@ -220,7 +220,7 @@ function SearchBar() {
               }}
             />
             <div onClick={() => setVoiceSearch(true)}>
-              <BsMicFill size={20} color="#DA9100" />
+              <BsMicFill size={20} color="#B95C50" />
             </div>
           </div>
           <div className="Header-mobile-Search" onClick={() => setOpen(true)}>

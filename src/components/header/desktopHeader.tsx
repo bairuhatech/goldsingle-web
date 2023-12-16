@@ -35,7 +35,7 @@ function DeskTop() {
   };
   return (
     <div className="Header-deskBox">
-      <div onClick={() => navigation("/")}>
+      <div onClick={() => navigation("/")} className="Header-desklogoBox">
         <img src={Logo} className="Header-deskLogo" alt="logo" />
       </div>
       <div style={{ margin: 20 }} />
@@ -61,7 +61,7 @@ function DeskTop() {
         <div>{t("cart")}</div>
         <div style={{ margin: 4 }} />
         <div className="DesktopHeader">
-          <Badge count={Cart.items.length} color="#DA9100">
+          <Badge count={Cart.items.length} color="#B95C50">
             <PiShoppingCartSimple size={25} color="grey" />
           </Badge>
         </div>

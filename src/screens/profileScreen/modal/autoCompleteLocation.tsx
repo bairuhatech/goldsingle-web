@@ -65,7 +65,7 @@ function AutoCompleteLocation(props: any) {
       <div className="position-absolute add-address-location-btn">
         <Tooltip title="Set Your current Location">
           {props?.locationLoading ? (
-            <LoadingOutlined style={{ fontSize: 18, color: "#DA9100" }} spin />
+            <LoadingOutlined style={{ fontSize: 18, color: "#B95C50" }} spin />
           ) : (
             <FaLocationCrosshairs
               color="grey"

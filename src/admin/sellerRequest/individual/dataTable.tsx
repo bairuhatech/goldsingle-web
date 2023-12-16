@@ -38,7 +38,7 @@ function DataTable(props: any) {
       render: (_text: any, _record: any) => (
         <div style={{ display: "flex", justifyContent: "center" }}>
           <div onClick={() => props?.viewDetailsPage(_record)}>
-            <AiOutlineEye cursor="pointer" size={25} color="#DA9100" />
+            <AiOutlineEye cursor="pointer" size={25} color="#B95C50" />
           </div>
         </div>
       ),

@@ -41,7 +41,7 @@ function Mobile() {
           <HiOutlineMenuAlt2 size={30} />
         </div>
         <div style={{ margin: 10 }} />
-        <div onClick={() => navigation("/")}>
+        <div onClick={() => navigation("/")} className="Header-mobLogoBox">
           <img src={Logo} className="Header-mobLogo" alt="logo" />
         </div>
         <div style={{ flex: 1 }}></div>
@@ -50,7 +50,7 @@ function Mobile() {
         </div>
         <div style={{ margin: 10 }} />
         <div>
-          <Badge count={Cart.items.length} color="#DA9100">
+          <Badge count={Cart.items.length} color="#B95C50">
             <PiShoppingCartSimple
               size={26}
               onClick={() => OpenLink("/auth/cart")}
@@ -90,7 +90,7 @@ function Mobile() {
       </div>
       <div style={{ margin: 10 }} />
       <div>
-        <Badge count={Cart.items.length} color="#DA9100">
+        <Badge count={Cart.items.length} color="#B95C50">
           <PiShoppingCartSimple
             size={26}
             onClick={() => OpenLink("/auth/cart")}

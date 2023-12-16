@@ -141,7 +141,7 @@ const RolesTable = (props: any) => {
               }}
               okButtonProps={{ loading: deleteLoad }}
             >
-              <AiFillDelete color="#DA9100" size={21} />
+              <AiFillDelete color="#B95C50" size={21} />
             </Popconfirm>
           </div>
         );

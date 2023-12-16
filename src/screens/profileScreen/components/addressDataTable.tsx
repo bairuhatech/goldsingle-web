@@ -45,7 +45,7 @@ function AddressDataTable(props: any) {
           <BiSolidEditAlt
             cursor="pointer"
             size={25}
-            color="#DA9100"
+            color="#B95C50"
             onClick={() => {
               props?.setType();
               props?.toggleModal(true);
@@ -59,7 +59,7 @@ function AddressDataTable(props: any) {
             cancelText="No"
             onConfirm={() => props?.delete(_record)}
           >
-            <AiTwotoneDelete cursor="pointer" size={25} color="#DA9100" />
+            <AiTwotoneDelete cursor="pointer" size={25} color="#B95C50" />
           </Popconfirm>
         </div>
       ),

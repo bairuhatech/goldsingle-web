@@ -26,19 +26,19 @@ function SellerRegister() {
   const [isLoginModalVisible, setIsLoginModalVisible] = useState(false);
   const sellerFeatures = [
     {
-      icon: <FaHandshakeSimple size={30} color="#DA9100" />,
+      icon: <FaHandshakeSimple size={30} color="#B95C50" />,
       title: "0% Commission Fee",
       description:
         "Suppliers selling on Gold Bazar keep 100% of their profit by not paying any commission",
     },
     {
-      icon: <IoDocumentText size={30} color="#DA9100" />,
+      icon: <IoDocumentText size={30} color="#B95C50" />,
       title: "0 Penalty Charges",
       description:
         "Sell online without the fear of order cancellation charges with 0 Penalty for late dispatch or order cancellations.",
     },
     {
-      icon: <GiCrystalGrowth size={30} color="#DA9100" />,
+      icon: <GiCrystalGrowth size={30} color="#B95C50" />,
       title: "Growth for Every Supplier",
       description:
         "From small to large and unbranded to branded, and now open for Sellers who don't have a Regular GSTIN too, Gold Bazar fuels growth for all suppliers.",
@@ -76,12 +76,12 @@ function SellerRegister() {
             <br />
             <div>
               <p className="sellerRegister-text2">
-                <FaLongArrowAltRight color="#DA9100" size={20} />
+                <FaLongArrowAltRight color="#B95C50" size={20} />
                 &nbsp; Individual
               </p>
               <p className="sellerRegister-text1">
-                As an individual user on Gold Bazar, you gain access to a host of
-                features designed to enhance your waitlisting experience.
+                As an individual user on Gold Bazar, you gain access to a host
+                of features designed to enhance your waitlisting experience.
                 Receive instant updates on your wait time, allowing you to plan
                 your activities with precision. The app ensures that you make
                 the most of your valuable time, all while enjoying the
@@ -103,7 +103,7 @@ function SellerRegister() {
                 onClick={() => navigation("/slr/individual_info")}
               >
                 More Info &nbsp;
-                <BsFillPatchQuestionFill color="#DA9100" size={16} />
+                <BsFillPatchQuestionFill color="#B95C50" size={16} />
               </p>
             </div>
           </Col>
@@ -184,11 +184,11 @@ function SellerRegister() {
                 Why Suppliers Love Gold Bazar
               </h4>
               <p className="sellerRegister-text1">
-                All the benefits that come with selling on Gold Bazar are designed
-                to help you sell more, and make it easier to grow your
-                business.Selling on Gold Bazar opens up a world of opportunities for
-                businesses, providing a platform that goes beyond traditional
-                selling channels.
+                All the benefits that come with selling on Gold Bazar are
+                designed to help you sell more, and make it easier to grow your
+                business.Selling on Gold Bazar opens up a world of opportunities
+                for businesses, providing a platform that goes beyond
+                traditional selling channels.
               </p>
             </div>
           </Col>
