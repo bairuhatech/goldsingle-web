@@ -18,6 +18,7 @@ import SEO from "../../components/seo";
 import React from "react";
 import { message } from "antd";
 import LiveRates from "./components/liveRates";
+import Offers from "./components/offers";
 
 function HomeSCreen() {
   const User = useSelector((state: any) => state.User.user);
@@ -121,12 +122,11 @@ function HomeSCreen() {
         <Loader />
       ) : (
         <>
-          <br />
+          <SubCategoryList data={subCategories} />
           <LiveRates />
           <br />
           <Banners data={Banner} />
-          <SubCategoryList data={subCategories} />
-
+          <br />
           {/* <Offers data={[1]} /> */}
           {loading ? (
             <Loading />

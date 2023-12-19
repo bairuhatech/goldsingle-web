@@ -53,11 +53,10 @@ function CateogreyList() {
       navigation("/seller");
     }
   };
-
+  console.log(Settings?.type);
   return (
     <div className={`Header-deskCateogrey ${!show ? "d-none" : ""}`}>
-      {Auth.auth ? (
-        (User?.data?.type === "seller" && Settings?.type == "multi") ||
+      {Settings?.type === "single" ? (
         User?.data?.type === "admin" ? (
           <div className="Header-deskCatItem2" onClick={() => OpenLink()}>
             <div style={{ marginRight: 5, marginBottom: 5 }}>
@@ -65,15 +64,17 @@ function CateogreyList() {
             </div>
             Manage Store
           </div>
-        ) : (
-          User?.data?.type === "user" && (
-            <div className="Header-deskCatItem2" onClick={() => OpenLink()}>
-              <div style={{ marginRight: 5, marginBottom: 5 }}>
-                <BsShopWindow />
-              </div>
-              Become a seller
+        ) : null
+      ) : Auth.auth ? (
+        (User?.data?.type === "seller" && Settings?.type == "multi") || (
+          <div className="Header-deskCatItem2" onClick={() => OpenLink()}>
+            <div style={{ marginRight: 5, marginBottom: 5 }}>
+              <BsShopWindow />
             </div>
-          )
+            {User?.data?.type === "seller"
+              ? "Manage Store"
+              : " Become a seller"}
+          </div>
         )
       ) : (
         <div className="Header-deskCatItem2" onClick={() => OpenLink()}>
@@ -86,7 +87,7 @@ function CateogreyList() {
 
       <div style={{ flex: 1 }}></div>
       {Category && Category.length
-        ? Category.map((item: any,index:number) => {
+        ? Category.map((item: any, index: number) => {
             return (
               <Popover
                 key={index}
@@ -95,7 +96,7 @@ function CateogreyList() {
                 content={
                   <Row>
                     {item?.sub_categories?.length
-                      ? item.sub_categories.map((sub: any,key:number) => {
+                      ? item.sub_categories.map((sub: any, key: number) => {
                           return (
                             <Col key={key} sm={6}>
                               <div

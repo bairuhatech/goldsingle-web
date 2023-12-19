@@ -10,7 +10,7 @@ function Banners(props: any) {
     dots: false,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     speed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -34,7 +34,6 @@ function Banners(props: any) {
                   <Row>
                     <Col sm={6} xs={12}>
                       <div className="HomeScreen-BannersBox">
-                       
                         <div className="HomeScreen-Bannertxt2">
                           {" "}
                           {bann.title}

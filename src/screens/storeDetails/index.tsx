@@ -30,11 +30,15 @@ function StoreRedirectScreen() {
         if (store?.status == true) {
           setStoreData(store?.data);
           dispatch(addStore(store?.data));
-          if (store?.data?.status == "approved" && Settings.type == "multi") {
-            if (User?.data?.role === "admin") {
-              navigation("/auth/dashboard", { replace: true });
-            } else {
-              navigation("/auth/overview", { replace: true });
+          if (Settings.type == "single" && User?.data?.role === "admin") {
+            navigation("/auth/dashboard", { replace: true });
+          } else {
+            if (store?.data?.status == "approved" && Settings.type == "multi") {
+              if (User?.data?.role === "admin") {
+                navigation("/auth/dashboard", { replace: true });
+              } else {
+                navigation("/auth/overview", { replace: true });
+              }
             }
           }
         } else {

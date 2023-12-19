@@ -135,3 +135,50 @@
 .left-arrow-button {
   left: -20px;
 }
+.homeScreen-box1 {
+  border: 1px solid #fcb69f;
+  border-radius: 6px;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #fff9f1 0%, #ffe8e1 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    margin: 15px;
+    margin-bottom: 15px;
+  }
+}
+.homeScreen-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #fcb69f;
+  padding: 5px 10px;
+  font-family: global.$Bold;
+}
+.homeScreen-liveChart {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
+.homeScreen-livetext1 {
+  font-size: 14px;
+  font-family: global.$SemiBold;
+  color: red;
+}
+.homeScreen-img1box1 {
+  height: 210px;
+  overflow: hidden;
+  border-radius: 6px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    margin: 15px;
+    margin-top: 10px;
+  }
+}
+.homeScreen-img1 {
+  width: 100%;
+  height: 100%;
+}

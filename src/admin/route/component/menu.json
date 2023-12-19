@@ -33,14 +33,14 @@
     "menu": "Orders",
     "icon": "SlHome",
     "route": "/auth/Orders",
-    "role": ["seller"]
+    "role": ["admin"]
   },
   {
     "id": 3,
     "menu": "Banner",
     "icon": "SlHome",
     "route": "/auth/banners",
-    "role": ["seller"]
+    "role": ["admin"]
   },
   {
     "id": 5,
@@ -61,21 +61,21 @@
     "menu": "Products",
     "icon": "SlHome",
     "route": "/auth/products",
-    "role": ["seller"]
+    "role": ["admin"]
   },
   {
     "id": 11,
     "menu": "Offers",
     "icon": "SlHome",
     "route": "/auth/offers",
-    "role": ["seller"]
+    "role": ["admin"]
   },
   {
     "id": 10,
     "menu": "Menu",
     "icon": "SlHome",
     "route": "/auth/menu-config",
-    "role": ["seller"]
+    "role": ["admin"]
   },
   {
     "id": 12,
@@ -96,7 +96,7 @@
     "menu": "Manage Store",
     "icon": "SlHome",
     "route": "/auth/manage_store",
-    "role": ["seller"]
+    "role": ["admin"]
   },
   {
     "id": 14,
