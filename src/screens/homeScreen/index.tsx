@@ -139,7 +139,7 @@ function HomeSCreen() {
           {loading ? (
             <Loading />
           ) : (
-            <PopularItems data={products?.slice(18, 29)} title="Top Products" />
+            <PopularItems data={products?.slice(5, 14)} title="Top Products" />
           )}
         </>
       )}

@@ -1,6 +1,7 @@
 const API = {
   BASE_URL: "https://server.bairuhatech.com/gold-single/",
   // BASE_URL: "http://localhost:8000/",
+  API_URL:"https://goldbroker.com/",
 
   //GOOGLE API
   GOOGLE_API: "https://maps.googleapis.com/maps/api/",
