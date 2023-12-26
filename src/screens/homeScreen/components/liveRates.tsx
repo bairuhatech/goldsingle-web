@@ -2,100 +2,40 @@ import React, { useEffect, useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import { PiChartLineUp, PiChartLineDown } from "react-icons/pi";
 import Live from "../../../assets/images/live.gif";
-import API from "../../../config/API"
-import axios from "axios";
+import axios from "axios"
 function LiveRates(props: any) {
-  const [goldDataOz, setGoldDataOz] = useState();
-  const [goldDataG, setGoldDataG] = useState();
-  const [goldDataKg, setGoldDataKg] = useState();
-  const [goldData9999, setGoldData9999] = useState<number>();
-  const [goldDataTtb, setGoldDataTtb] = useState<number>();
+  const [goldDataG, setGoldDataG] = useState<number>();
+  const [goldDataKg,setGoldDataKg] = useState<number>()
+  const [goldDataOz,setGoldDataOz] = useState<number>()
+  const [silverDataOz,setSilverDataOz] = useState<number>()
+  const[goldData999,setGoldData999] = useState<number>()
   useEffect(() => {
     getGold();
-    liveRate()
+    liveRates()
   }, []);
-
-  function liveRate() {
-    setInterval(function () {
-      getGold();
-    }, 5000)
+  function liveRates(){
+    setInterval(getGold,5000)
   }
-  // function convert(){
-
-  //   if(goldDataKg){
-  //     gold9999 = goldDataKg+(goldDataKg*0.5).toFixed(2)
-  //     console.log("gold9999",gold9999)
-  //   }
-  //   if(goldDataG){
-  //     goldttb = goldDataG*106.5
-  //     console.log("goldttb",goldttb)
-  //   }
-
-  // }
 
   async function getGold() {
     try {
-      const responseoz = await axios.get(API.API_URL+'api/spot-prices?metal=XAU&currency=AED&weight_unit=oz&boundaries=1')
-      const responseg = await axios.get(API.API_URL+'api/spot-prices?metal=XAU&currency=AED&weight_unit=g&boundaries=1')
-      const responsekg = await axios.get(API.API_URL+'api/spot-prices?metal=XAU&currency=AED&weight_unit=kg&boundaries=1')
-      // console.log("======>",response.text())
-      // console.log(response)
-      const dataoz = await responseoz.data;
-      const datag = await responseg.data
-      const datakg = await responsekg.data
-      console.log("gggggggggg", dataoz)
-      // const mis = parseData(data);
-
-      setGoldDataOz(dataoz._embedded.items[dataoz._embedded.items.length - 2].value);
-      setGoldDataG(datag._embedded.items[datag._embedded.items.length - 2].value)
-      setGoldDataKg(datakg._embedded.items[datakg._embedded.items.length - 2].value)
-      setGoldData9999(parseFloat((datakg._embedded.items[datakg._embedded.items.length - 2].value + ((datakg._embedded.items[datakg._embedded.items.length - 2].value * 0.5)/100)).toFixed(2)))
-      setGoldDataTtb(parseFloat((datag._embedded.items[datag._embedded.items.length - 2].value*106.5).toFixed(2)))
-      console.log("++++++++++++++++++++", goldDataOz)
+      const response = await axios.get("https://data-asg.goldprice.org/dbXRates/AED")
+      console.log("+++++++++++++++++++++",response)
+      const data = await response.data.items[0]
+      console.log("=======>",data)
+      setGoldDataOz(data.xauPrice)
+      setSilverDataOz(data.xagPrice)
+      setGoldDataG(parseFloat((data.xauPrice/28.35).toFixed(2)))
+      setGoldDataKg(parseFloat(((data.xauPrice/28.35)*1000).toFixed(2)))
+      setGoldData999(parseFloat((((data.xauPrice/28.35)*1000)+((((data.xauPrice/28.35)*1000)*0.5)/100)).toFixed(2)))
+      
+      
+      // console.log("========>",data)
     } catch (err) {
       console.log("error", err);
     }
   }
 
-  // const parseData = (data: any) => {
-  //   try {
-  //     console.log("data", data);
-  //     const rows = data.trim().split("\n");
-  //     const parsedData = rows.map((row: any) => {
-  //       const values = row.trim().split(/\s+/);
-  //       const obj: any = {};
-  //       if (values.length >= 6) {
-  //         obj.goldName =
-  //           values[3] === "9999"
-  //             ? `${values[1]} ${values[2]} ${values[3]}`
-  //             : values[3] === "BAR"
-  //               ? `${values[1]} ${values[2]} ${values[3]}`
-  //               : values[1] === "USDINR"
-  //                 ? `${values[1]}`
-  //                 : `${values[1]} ${values[2]}`;
-  //         obj.rate = `${values[4]}`;
-  //         obj.weight =
-  //           values[3] === "9999"
-  //             ? ``
-  //             : values[3] === "BAR"
-  //               ? `${values[8]}`
-  //               : values[1] === "USDINR"
-  //                 ? `${values[1]}`
-  //                 : `${values[7]} ${values[8]}`;
-  //         obj.rate2 = values[2] === "OZ" ? `${values[3]}` : null;
-  //         obj.rate3 = values[2] === "OZ" ? `${values[5]}` : null;
-  //         obj.rate4 = values[2] === "OZ" ? `${values[6]}` : null;
-  //       }
-  //       return obj;
-  //     });
-  //     return parsedData;
-  //   } catch (err) {
-  //     console.log("err", err);
-  //     return {};
-  //   }
-  // };
-
-  // console.log("goldData", goldData);
 
   return (
     <div>
@@ -108,19 +48,39 @@ function LiveRates(props: any) {
                 <img src={Live} className="homeScreen-liveChart" />
               </div>
             </div>
-
-            {/* <div className="homeScreen-item">
-              <div style={{ flex: 2 }}>hjkhjkhj</div>
-              <div style={{ flex: 1 }}>jhjkhk</div>
-              <div style={{ flex: 1 }}>yjhgg AED</div>
+            {/* {goldData &&
+              goldData.length &&
+              goldData.slice(0, 6).map((item: any) => {
+                return (
+                  <div className="homeScreen-item">
+                    <div style={{ flex: 2 }}>{item.goldName}</div>
+                    <div style={{ flex: 1 }}>1 GM</div>
+                    <div style={{ flex: 1 }}>{item.rate} AED</div>
+                    <div>
+                      <PiChartLineUp size={20} color="green" />
+                    </div>
+                  </div>
+                );
+              })} */}
+            <div className="homeScreen-item">
+              <div style={{ flex: 3 }}>Gold 9999</div>
+              <div style={{ flex: 1 }}>1 KG</div>
+              <div style={{ flex: 2 }}>{goldData999} AED</div>
               <div>
                 <PiChartLineUp size={20} color="green" />
               </div>
-            </div> */}
-
+            </div>
             <div className="homeScreen-item">
               <div style={{ flex: 3 }}>Gold 995</div>
-              <div style={{ flex: 1 }}>1 GM</div>
+              <div style={{ flex: 1 }}>1 OZ</div>
+              <div style={{ flex: 2 }}>{goldDataOz} AED</div>
+              <div>
+                <PiChartLineDown size={20} color="red" />
+              </div>
+            </div>
+            <div className="homeScreen-item">
+              <div style={{ flex: 3 }}>Gold 995</div>
+              <div style={{ flex: 1 }}>1 G</div>
               <div style={{ flex: 2 }}>{goldDataG} AED</div>
               <div>
                 <PiChartLineUp size={20} color="green" />
@@ -131,29 +91,13 @@ function LiveRates(props: any) {
               <div style={{ flex: 1 }}>1 KG</div>
               <div style={{ flex: 2 }}>{goldDataKg} AED</div>
               <div>
-                <PiChartLineDown size={20} color="red" />
-              </div>
-            </div>
-            <div className="homeScreen-item">
-              <div style={{ flex: 3 }}>Gold 9999</div>
-              <div style={{ flex: 1 }}>1 KG</div>
-              <div style={{ flex: 2 }}>{goldData9999} AED</div>
-              <div>
                 <PiChartLineUp size={20} color="green" />
               </div>
             </div>
             <div className="homeScreen-item">
-              <div style={{ flex: 3 }}>TENT TOLA BAR</div>
-              <div style={{ flex: 1 }}>TTB</div>
-              <div style={{ flex: 2 }}>{goldDataTtb} AED</div>
-              <div>
-                <PiChartLineUp size={20} color="green" />
-              </div>
-            </div>
-            <div className="homeScreen-item">
-              <div style={{ flex: 3 }}>1 OUNCE 995</div>
-              <div style={{ flex: 1 }}>1 oz</div>
-              <div style={{ flex: 2 }}>{goldDataOz} AED</div>
+              <div style={{ flex: 3 }}>Silver 9999</div>
+              <div style={{ flex: 1 }}>1 OZ</div>
+              <div style={{ flex: 2 }}>{silverDataOz} AED</div>
               <div>
                 <PiChartLineUp size={20} color="green" />
               </div>
